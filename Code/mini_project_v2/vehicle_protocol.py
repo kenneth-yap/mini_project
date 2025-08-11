@@ -1,26 +1,6 @@
-from uagents import Context, Model, Protocol
+from uagents import Protocol, Context
+from handler import *
 from random_number_generator import generate_random_number, generate_unique_random_number
-
-# ========== MESSAGE DEFINITIONS ==========
-
-class RequestRanking(Model):
-    vehicle_number: int
-    ranking: int
-
-class ProvideRanking(Model):
-    vehicle_number: int
-    ranking: int
-
-class AssignTask(Model):
-    vehicle_number: int
-    ranking: int
-
-class RejectTask(Model):
-    vehicle_number: int
-
-class TaskResponse(Model):
-    vehicle_number: int
-    can_complete: bool
 
 # ======= PROTOCOL INSTANCE =======
 

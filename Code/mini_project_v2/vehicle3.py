@@ -1,14 +1,14 @@
 from uagents import Agent, Context
 from protocol import protocol
+from random_number_generator import generate_unique_random_number
 
-
-vehicle_number = 1
+vehicle_number = 3
 
 vehicle = Agent(
     name=f"vehicle{vehicle_number}",
-    seed="vehicle 1 recovery phrase",
-    port=8001,
-    endpoint=["http://localhost:8001/submit"]
+    seed="vehicle 3 recovery phrase",
+    port=8003,
+    endpoint=["http://localhost:8003/submit"]
 )
 
 vehicle.include(protocol)

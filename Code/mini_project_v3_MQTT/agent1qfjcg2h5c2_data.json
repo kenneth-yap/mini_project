@@ -1,13 +1,13 @@
 {
-    "state": "waiting_for_responses",
+    "state": "idle",
     "TOTAL_VEHICLES": 2,
     "ranking_all": {
-        "1": 8130,
-        "2": 507
+        "2": 34,
+        "1": 82
     },
     "responses_received": [
-        1,
-        2
+        2,
+        1
     ],
     "task_assigned_vehicle": 2,
     "vehicle_addresses": {
