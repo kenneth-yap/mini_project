@@ -1,0 +1,12 @@
+{
+    "state": "waiting_for_responses",
+    "TOTAL_VEHICLES": 2,
+    "ranking_all": {},
+    "responses_received": [],
+    "task_assigned_vehicle": null,
+    "vehicle_addresses": {
+        "1": "agent1q03ndjvw6z8ke3h80x0f6mezwnhxrxapwzlfmgwrr7kzneucef9lzdqqxp6",
+        "2": "agent1qtazd65qr6ss3g2l4h0m04q5g7kj8y4fwf4f989tyxntd2mgnyr7wrgzy6d"
+    },
+    "rankings": {}
+}
