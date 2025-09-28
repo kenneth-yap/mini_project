@@ -27,11 +27,10 @@ class DigitalTwin:
         self.client.on_connect = self.on_connect
         self.client.on_message = self.on_message
 
-        # --- State storage ---
-        self.current_state = {}
+        # --- Raw simulator data storage ---
+        self.raw_simulator_data = {}
         self.state_history = []
         self.last_update_time = None
-        self.last_progress = None
 
         # --- Synchronization ---
         self.message_ack = threading.Event()
@@ -39,7 +38,7 @@ class DigitalTwin:
         # --- TCP connections (agent clients) ---
         self.agent_writers = set()
 
-    # ---------- MQTT ----------
+    # ---------- MQTT (Simulator Communication) ----------
     def start_mqtt(self):
         print(f"[DigitalTwin {self.vehicle_id}] Connecting to MQTT broker {MQTT_BROKER}:{MQTT_PORT}")
         self.client.connect(MQTT_BROKER, MQTT_PORT, 60)
@@ -59,29 +58,31 @@ class DigitalTwin:
 
         if msg.topic == SIM_TOPIC_UPDATE:
             try:
-                data = json.loads(payload)
+                raw_data = json.loads(payload)
+                print(f"[DigitalTwin {self.vehicle_id}] 📨 Raw simulator data ({timestamp}): {raw_data}")
             except json.JSONDecodeError:
                 print(f"[DigitalTwin {self.vehicle_id}] ⚠️ Non-JSON payload received: {payload}")
                 return
 
-            self.current_state = data
+            # Store raw data
+            self.raw_simulator_data = raw_data
             self.state_history.append({
                 "timestamp": time.time(),
-                "progress": data.get("progress"),
-                "next_location": data.get("next_location"),
-                "previous_location": data.get("previous_location"),
-                "x_coordinate": data.get("x_coordinate"),
-                "y_coordinate": data.get("y_coordinate")
+                "raw_data": raw_data
             })
             self.last_update_time = time.time()
 
-            progress = data.get("progress", 0)
-            print(f"[DigitalTwin {self.vehicle_id}] 📨 Simulator update ({timestamp}): progress={progress}, data={data}")
+            # Convert data format for agents
+            converted_data = self.convert_simulator_data_to_agent_format(raw_data)
+            
+            # Forward converted data to connected agents
+            print(f"[DigitalTwin {self.vehicle_id}] 🔄 Converting and forwarding to agent(s)")
+            self.forward_to_agents({
+                "type": "vehicle_data", 
+                "data": converted_data
+            })
 
-            # Forward update to connected agents
-            print(f"[DigitalTwin {self.vehicle_id}] 📤 Forwarding update to agent(s): {data}")
-            self.forward_to_agents({"type": "status", "data": data})
-
+            progress = raw_data.get("progress", 0)
             if progress == 100:
                 self.message_ack.set()
             else:
@@ -89,7 +90,50 @@ class DigitalTwin:
 
             self.detect_anomalies(progress)
 
-    # ---------- TCP ----------
+    def convert_simulator_data_to_agent_format(self, raw_data: dict) -> dict:
+        """
+        Convert raw simulator JSON/MQTT data to agent-readable format
+        Simulator format → Agent storage format
+        """
+        # Raw simulator data keys: progress, next_location, previous_location, x_coordinate, y_coordinate, current_node
+        # Agent storage format: mission_progress, current_location, target_location, x_position, y_position, previous_location
+        
+        progress = raw_data.get("progress", 0)
+        next_location = raw_data.get("next_location")
+        previous_location = raw_data.get("previous_location") 
+        current_node = raw_data.get("current_node")
+
+        # Determine current location based on progress and destinations
+        if progress == 100 and next_location:
+            current_location = next_location
+        elif current_node is not None:
+            current_location = f"Node{current_node}"
+        elif previous_location:
+            # Fallback to previous location if current_node is null
+            current_location = previous_location
+        else:
+            current_location = "Unknown"
+            
+        converted_data = {
+            "mission_progress": progress,  # progress → mission_progress
+            "current_location": current_location,  # derived from current_node/next_location
+            "target_location": next_location,  # next_location → target_location
+            "previous_location": previous_location,  # same key
+            "x_position": raw_data.get("x_coordinate", 0),  # x_coordinate → x_position
+            "y_position": raw_data.get("y_coordinate", 0),  # y_coordinate → y_position
+            "raw_current_node": current_node,  # keep original for reference
+            "conversion_timestamp": time.time()
+        }
+        
+        print(f"[DigitalTwin {self.vehicle_id}] 🔄 Data conversion:")
+        print(f"    Raw: progress={progress}, next_location={next_location}, current_node={current_node}")
+        print(f"    Converted: mission_progress={converted_data['mission_progress']}, "
+              f"current_location={converted_data['current_location']}, "
+              f"target_location={converted_data['target_location']}")
+        
+        return converted_data
+
+    # ---------- TCP (Agent Communication) ----------
     async def handle_agent(self, reader, writer):
         addr = writer.get_extra_info("peername")
         print(f"[DigitalTwin {self.vehicle_id}] 🔌 Agent connected: {addr}")
@@ -98,10 +142,9 @@ class DigitalTwin:
         try:
             while True:
                 try:
-                    # Wait for a new message with timeout to keep connection alive
                     data = await asyncio.wait_for(reader.readline(), timeout=30.0)
                 except asyncio.TimeoutError:
-                    print(f"[DigitalTwin {self.vehicle_id}] ⏳ No messages from agent {addr} within 30s, keeping connection alive...")
+                    print(f"[DigitalTwin {self.vehicle_id}] ⏳ Keepalive - Agent {addr}")
                     continue
 
                 if not data:
@@ -122,45 +165,53 @@ class DigitalTwin:
                     await writer.drain()
                     continue
 
-                # Handle assign_task
-                if request.get("type") == "assign_task":
-                    node = request.get("node")
-                    if node:
-                        payload = json.dumps(node)
+                # Handle mission assignment (convert agent format to simulator format)
+                if request.get("type") == "assign_mission":
+                    destination = request.get("destination")
+                    if destination:
+                        # Convert agent mission format to simulator instruction format
+                        simulator_instruction = self.convert_agent_mission_to_simulator_format(destination)
+                        
+                        # Send to simulator via MQTT
+                        payload = json.dumps(simulator_instruction)
                         self.client.publish(SIM_TOPIC_INSTRUCTION, payload)
-                        print(f"[DigitalTwin {self.vehicle_id}] 📤 Forwarded to Simulator: {payload}")
+                        print(f"[DigitalTwin {self.vehicle_id}] 📤 Converted mission to simulator: {payload}")
 
-                        response = {"type": "ack", "received": True}
-                        writer.write((json.dumps(response) + "\n").encode())
-                        await writer.drain()
-                        print(f"[DigitalTwin {self.vehicle_id}] ✅ Ack sent to agent")
-                    else:
-                        response = {"type": "ack", "received": False, "error": "No node specified"}
-                        writer.write((json.dumps(response) + "\n").encode())
-                        await writer.drain()
-                        print(f"[DigitalTwin {self.vehicle_id}] ⚠️ No node specified in assign_task request")
-
-                # Handle get_status
-                elif request.get("type") == "get_status":
-                    response = {
-                        "type": "status",
-                        "data": {
-                            "progress": self.current_state.get("progress", 0),
-                            "next_location": self.current_state.get("next_location", "Unknown"),
-                            "previous_location": self.current_state.get("previous_location", "Unknown"),
-                            "x_coordinate": self.current_state.get("x_coordinate", 0),
-                            "y_coordinate": self.current_state.get("y_coordinate", 0)
+                        # Send acknowledgment to agent
+                        response = {
+                            "type": "task_ack", 
+                            "status": "mission_accepted",
+                            "destination": destination,
+                            "request_id": request.get("request_id")
                         }
+                        writer.write((json.dumps(response) + "\n").encode())
+                        await writer.drain()
+                        print(f"[DigitalTwin {self.vehicle_id}] ✅ Mission ack sent to agent")
+                    else:
+                        response = {
+                            "type": "task_ack", 
+                            "status": "mission_rejected", 
+                            "error": "No destination specified"
+                        }
+                        writer.write((json.dumps(response) + "\n").encode())
+                        await writer.drain()
+
+                # Handle status requests
+                elif request.get("type") == "get_status":
+                    # Convert current raw data to agent format and send
+                    converted_data = self.convert_simulator_data_to_agent_format(self.raw_simulator_data)
+                    response = {
+                        "type": "vehicle_data",
+                        "data": converted_data
                     }
                     writer.write((json.dumps(response) + "\n").encode())
                     await writer.drain()
-                    print(f"[DigitalTwin {self.vehicle_id}] ✅ Status response delivered to agent")
+                    print(f"[DigitalTwin {self.vehicle_id}] ✅ Status response sent to agent")
 
                 else:
                     error_resp = {"type": "error", "message": f"Unknown request type: {request.get('type')}"}
                     writer.write((json.dumps(error_resp) + "\n").encode())
                     await writer.drain()
-                    print(f"[DigitalTwin {self.vehicle_id}] ⚠️ Unknown request type: {request.get('type')}")
 
         except Exception as e:
             print(f"[DigitalTwin {self.vehicle_id}] ❌ TCP error with {addr}: {e}")
@@ -171,7 +222,15 @@ class DigitalTwin:
                 await writer.wait_closed()
             except Exception:
                 pass
-            print(f"[DigitalTwin {self.vehicle_id}] 🔌 Connection fully closed: {addr}")
+            print(f"[DigitalTwin {self.vehicle_id}] 🔌 Connection closed: {addr}")
+
+    def convert_agent_mission_to_simulator_format(self, destination: str) -> str:
+        """
+        Convert agent mission format to simulator instruction format
+        Agent: "Node2" → Simulator: "Node2" (direct pass-through for now)
+        """
+        print(f"[DigitalTwin {self.vehicle_id}] 🔄 Mission conversion: Agent '{destination}' → Simulator '{destination}'")
+        return destination
 
     async def start_tcp(self, base_port=DT_BASE_PORT):
         port = base_port + (self.vehicle_id - 1)
@@ -180,8 +239,9 @@ class DigitalTwin:
         async with server:
             await server.serve_forever()
 
-    # ---------- Helper ----------
+    # ---------- Helper Functions ----------
     def forward_to_agents(self, message: dict):
+        """Forward converted data to all connected agents"""
         if not self.agent_writers:
             print(f"[DigitalTwin {self.vehicle_id}] ⚠️ No agents connected, cannot forward message")
             return
@@ -196,18 +256,17 @@ class DigitalTwin:
             self.agent_writers.discard(w)
 
     def detect_anomalies(self, progress):
+        """Detect anomalies in simulator data"""
         now = time.time()
         if self.last_update_time and now - self.last_update_time > 10:
             print(f"[DigitalTwin {self.vehicle_id}] ⚠️ Anomaly: No updates received in >10s")
-        if self.last_progress is not None and progress == self.last_progress and progress < 100:
-            print(f"[DigitalTwin {self.vehicle_id}] ⚠️ Anomaly: Vehicle progress not changing")
-        self.last_progress = progress
 
     def export_history(self):
-        filename = f"vehicle{self.vehicle_id}_history.json"
+        """Export raw simulator data history"""
+        filename = f"vehicle{self.vehicle_id}_raw_history.json"
         with open(filename, "w") as f:
             json.dump(self.state_history, f, indent=2)
-        print(f"[DigitalTwin {self.vehicle_id}] 💾 History exported to {filename}")
+        print(f"[DigitalTwin {self.vehicle_id}] 💾 Raw history exported to {filename}")
         return pd.DataFrame(self.state_history)
 
 

@@ -1,0 +1,37 @@
+{
+    "state": "idle",
+    "current_task_id": "87dbe4eb",
+    "proposals": {},
+    "active_assignments": {
+        "5ff8fdd8": {
+            "vehicle_id": 3,
+            "destination": "Node3",
+            "start_time": 1759051680.835835
+        },
+        "ffb1fdfe": {
+            "vehicle_id": 1,
+            "destination": "Node7",
+            "start_time": 1759051849.7011771
+        },
+        "2d13f74b": {
+            "vehicle_id": 1,
+            "destination": "Node5",
+            "start_time": 1759051870.8395505
+        }
+    },
+    "completed_tasks": [
+        "0b52b6c6",
+        "d1a9666d",
+        "180524c0",
+        "7cb00933",
+        "c0b07c50",
+        "0786ff0b",
+        "5c6d0d7a",
+        "cfa72d6e",
+        "f80a282a",
+        "bc68d95a"
+    ],
+    "awaiting_responses": true,
+    "current_destination": "Node9",
+    "last_cfp_time": 1759051890.4898055
+}
