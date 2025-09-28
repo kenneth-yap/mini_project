@@ -151,7 +151,7 @@ async def startup(ctx: Context):
     ctx.storage.set("completed_tasks", [])
     ctx.storage.set("awaiting_responses", False)
 
-@manager.on_interval(period=20.0)
+@manager.on_interval(period=15.0)
 async def send_call_for_proposal(ctx: Context):
     """Send out call for proposal every 20 seconds"""
     

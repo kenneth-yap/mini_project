@@ -1,0 +1,82 @@
+[
+  {
+    "timestamp": 1759052098.5126543,
+    "raw_data": {
+      "progress": 40,
+      "next_location": "Node5",
+      "previous_location": "Node2",
+      "x_coordinate": 210,
+      "y_coordinate": 170
+    }
+  },
+  {
+    "timestamp": 1759052101.5179515,
+    "raw_data": {
+      "progress": 80,
+      "next_location": "Node5",
+      "previous_location": "Node2",
+      "x_coordinate": 170,
+      "y_coordinate": 190
+    }
+  },
+  {
+    "timestamp": 1759052104.5341067,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node5",
+      "previous_location": "Node2",
+      "x_coordinate": 150,
+      "y_coordinate": 200
+    }
+  },
+  {
+    "timestamp": 1759052119.6153123,
+    "raw_data": {
+      "progress": 40,
+      "next_location": "Node2",
+      "previous_location": "Node5",
+      "x_coordinate": 190,
+      "y_coordinate": 180
+    }
+  },
+  {
+    "timestamp": 1759052122.6225455,
+    "raw_data": {
+      "progress": 80,
+      "next_location": "Node2",
+      "previous_location": "Node5",
+      "x_coordinate": 230,
+      "y_coordinate": 160
+    }
+  },
+  {
+    "timestamp": 1759052125.636392,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node2",
+      "previous_location": "Node5",
+      "x_coordinate": 250,
+      "y_coordinate": 150
+    }
+  },
+  {
+    "timestamp": 1759052149.6430182,
+    "raw_data": {
+      "progress": 64,
+      "next_location": "Node9",
+      "previous_location": "Node2",
+      "x_coordinate": 282,
+      "y_coordinate": 118
+    }
+  },
+  {
+    "timestamp": 1759052152.6533217,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node9",
+      "previous_location": "Node2",
+      "x_coordinate": 300,
+      "y_coordinate": 100
+    }
+  }
+]
