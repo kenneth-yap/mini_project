@@ -1,6 +1,526 @@
 [
   {
-    "timestamp": 1759052161.7843988,
+    "timestamp": 1760539085.655275,
+    "raw_data": {
+      "progress": 50,
+      "next_location": "Node1",
+      "previous_location": "Node3",
+      "x_coordinate": 250,
+      "y_coordinate": 300
+    }
+  },
+  {
+    "timestamp": 1760539088.6599584,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node1",
+      "previous_location": "Node3",
+      "x_coordinate": 250,
+      "y_coordinate": 250
+    }
+  },
+  {
+    "timestamp": 1760539115.6702735,
+    "raw_data": {
+      "progress": 50,
+      "next_location": "Node2",
+      "previous_location": "Node1",
+      "x_coordinate": 250,
+      "y_coordinate": 200
+    }
+  },
+  {
+    "timestamp": 1760539118.6740737,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node2",
+      "previous_location": "Node1",
+      "x_coordinate": 250,
+      "y_coordinate": 150
+    }
+  },
+  {
+    "timestamp": 1760539125.696789,
+    "raw_data": {
+      "progress": 45,
+      "next_location": "Node4",
+      "previous_location": "Node2",
+      "x_coordinate": 295,
+      "y_coordinate": 172
+    }
+  },
+  {
+    "timestamp": 1760539128.715228,
+    "raw_data": {
+      "progress": 90,
+      "next_location": "Node4",
+      "previous_location": "Node2",
+      "x_coordinate": 340,
+      "y_coordinate": 195
+    }
+  },
+  {
+    "timestamp": 1760539131.7174602,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node4",
+      "previous_location": "Node2",
+      "x_coordinate": 350,
+      "y_coordinate": 200
+    }
+  },
+  {
+    "timestamp": 1760539263.4413364,
+    "raw_data": {
+      "progress": 45,
+      "next_location": "Node2",
+      "previous_location": "Node4",
+      "x_coordinate": 305,
+      "y_coordinate": 178
+    }
+  },
+  {
+    "timestamp": 1760539266.456829,
+    "raw_data": {
+      "progress": 90,
+      "next_location": "Node2",
+      "previous_location": "Node4",
+      "x_coordinate": 260,
+      "y_coordinate": 155
+    }
+  },
+  {
+    "timestamp": 1760539269.464874,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node2",
+      "previous_location": "Node4",
+      "x_coordinate": 250,
+      "y_coordinate": 150
+    }
+  },
+  {
+    "timestamp": 1760539269.4876025,
+    "raw_data": {
+      "progress": 71,
+      "next_location": "Node8",
+      "previous_location": "Node2",
+      "x_coordinate": 215,
+      "y_coordinate": 115
+    }
+  },
+  {
+    "timestamp": 1760539272.4954696,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node8",
+      "previous_location": "Node2",
+      "x_coordinate": 200,
+      "y_coordinate": 100
+    }
+  },
+  {
+    "timestamp": 1760539298.5608263,
+    "raw_data": {
+      "progress": 71,
+      "next_location": "Node10",
+      "previous_location": "Node8",
+      "x_coordinate": 235,
+      "y_coordinate": 65
+    }
+  },
+  {
+    "timestamp": 1760539301.5785506,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node10",
+      "previous_location": "Node8",
+      "x_coordinate": 250,
+      "y_coordinate": 50
+    }
+  },
+  {
+    "timestamp": 1760539441.891216,
+    "raw_data": {
+      "progress": 71,
+      "next_location": "Node8",
+      "previous_location": "Node10",
+      "x_coordinate": 215,
+      "y_coordinate": 85
+    }
+  },
+  {
+    "timestamp": 1760539444.9033709,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node8",
+      "previous_location": "Node10",
+      "x_coordinate": 200,
+      "y_coordinate": 100
+    }
+  },
+  {
+    "timestamp": 1760539471.8954911,
+    "raw_data": {
+      "progress": 71,
+      "next_location": "Node2",
+      "previous_location": "Node8",
+      "x_coordinate": 235,
+      "y_coordinate": 135
+    }
+  },
+  {
+    "timestamp": 1760539474.9072301,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node2",
+      "previous_location": "Node8",
+      "x_coordinate": 250,
+      "y_coordinate": 150
+    }
+  },
+  {
+    "timestamp": 1760539481.902441,
+    "raw_data": {
+      "progress": 45,
+      "next_location": "Node4",
+      "previous_location": "Node2",
+      "x_coordinate": 295,
+      "y_coordinate": 172
+    }
+  },
+  {
+    "timestamp": 1760539484.9063833,
+    "raw_data": {
+      "progress": 90,
+      "next_location": "Node4",
+      "previous_location": "Node2",
+      "x_coordinate": 340,
+      "y_coordinate": 195
+    }
+  },
+  {
+    "timestamp": 1760539487.9176471,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node4",
+      "previous_location": "Node2",
+      "x_coordinate": 350,
+      "y_coordinate": 200
+    }
+  },
+  {
+    "timestamp": 1760539494.187547,
+    "raw_data": {
+      "progress": 45,
+      "next_location": "Node6",
+      "previous_location": "Node4",
+      "x_coordinate": 372,
+      "y_coordinate": 245
+    }
+  },
+  {
+    "timestamp": 1760539497.2040162,
+    "raw_data": {
+      "progress": 90,
+      "next_location": "Node6",
+      "previous_location": "Node4",
+      "x_coordinate": 395,
+      "y_coordinate": 290
+    }
+  },
+  {
+    "timestamp": 1760539500.212017,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node6",
+      "previous_location": "Node4",
+      "x_coordinate": 400,
+      "y_coordinate": 300
+    }
+  },
+  {
+    "timestamp": 1760539528.623928,
+    "raw_data": {
+      "progress": 45,
+      "next_location": "Node4",
+      "previous_location": "Node6",
+      "x_coordinate": 378,
+      "y_coordinate": 255
+    }
+  },
+  {
+    "timestamp": 1760539531.6279736,
+    "raw_data": {
+      "progress": 90,
+      "next_location": "Node4",
+      "previous_location": "Node6",
+      "x_coordinate": 355,
+      "y_coordinate": 210
+    }
+  },
+  {
+    "timestamp": 1760539534.6331146,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node4",
+      "previous_location": "Node6",
+      "x_coordinate": 350,
+      "y_coordinate": 200
+    }
+  },
+  {
+    "timestamp": 1760539627.014541,
+    "raw_data": {
+      "progress": 45,
+      "next_location": "Node2",
+      "previous_location": "Node4",
+      "x_coordinate": 305,
+      "y_coordinate": 178
+    }
+  },
+  {
+    "timestamp": 1760539630.0243106,
+    "raw_data": {
+      "progress": 90,
+      "next_location": "Node2",
+      "previous_location": "Node4",
+      "x_coordinate": 260,
+      "y_coordinate": 155
+    }
+  },
+  {
+    "timestamp": 1760539633.0357783,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node2",
+      "previous_location": "Node4",
+      "x_coordinate": 250,
+      "y_coordinate": 150
+    }
+  },
+  {
+    "timestamp": 1760539660.0465522,
+    "raw_data": {
+      "progress": 50,
+      "next_location": "Node1",
+      "previous_location": "Node2",
+      "x_coordinate": 250,
+      "y_coordinate": 200
+    }
+  },
+  {
+    "timestamp": 1760539663.0581686,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node1",
+      "previous_location": "Node2",
+      "x_coordinate": 250,
+      "y_coordinate": 250
+    }
+  },
+  {
+    "timestamp": 1760539663.154318,
+    "raw_data": {
+      "progress": 32,
+      "next_location": "Node6",
+      "previous_location": "Node1",
+      "x_coordinate": 297,
+      "y_coordinate": 266
+    }
+  },
+  {
+    "timestamp": 1760539666.1690333,
+    "raw_data": {
+      "progress": 64,
+      "next_location": "Node6",
+      "previous_location": "Node1",
+      "x_coordinate": 345,
+      "y_coordinate": 282
+    }
+  },
+  {
+    "timestamp": 1760539669.1768756,
+    "raw_data": {
+      "progress": 96,
+      "next_location": "Node6",
+      "previous_location": "Node1",
+      "x_coordinate": 393,
+      "y_coordinate": 298
+    }
+  },
+  {
+    "timestamp": 1760539672.1901042,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node6",
+      "previous_location": "Node1",
+      "x_coordinate": 400,
+      "y_coordinate": 300
+    }
+  },
+  {
+    "timestamp": 1760539694.3431654,
+    "raw_data": {
+      "progress": 32,
+      "next_location": "Node1",
+      "previous_location": "Node6",
+      "x_coordinate": 353,
+      "y_coordinate": 284
+    }
+  },
+  {
+    "timestamp": 1760539697.3620818,
+    "raw_data": {
+      "progress": 64,
+      "next_location": "Node1",
+      "previous_location": "Node6",
+      "x_coordinate": 305,
+      "y_coordinate": 268
+    }
+  },
+  {
+    "timestamp": 1760539700.3680532,
+    "raw_data": {
+      "progress": 96,
+      "next_location": "Node1",
+      "previous_location": "Node6",
+      "x_coordinate": 257,
+      "y_coordinate": 252
+    }
+  },
+  {
+    "timestamp": 1760539703.3733823,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node1",
+      "previous_location": "Node6",
+      "x_coordinate": 250,
+      "y_coordinate": 250
+    }
+  },
+  {
+    "timestamp": 1760539703.3874443,
+    "raw_data": {
+      "progress": 45,
+      "next_location": "Node5",
+      "previous_location": "Node1",
+      "x_coordinate": 205,
+      "y_coordinate": 228
+    }
+  },
+  {
+    "timestamp": 1760539706.4045067,
+    "raw_data": {
+      "progress": 90,
+      "next_location": "Node5",
+      "previous_location": "Node1",
+      "x_coordinate": 160,
+      "y_coordinate": 205
+    }
+  },
+  {
+    "timestamp": 1760539709.4259365,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node5",
+      "previous_location": "Node1",
+      "x_coordinate": 150,
+      "y_coordinate": 200
+    }
+  },
+  {
+    "timestamp": 1760539713.4202304,
+    "raw_data": {
+      "progress": 50,
+      "next_location": "Node11",
+      "previous_location": "Node5",
+      "x_coordinate": 100,
+      "y_coordinate": 200
+    }
+  },
+  {
+    "timestamp": 1760539716.4291587,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node11",
+      "previous_location": "Node5",
+      "x_coordinate": 50,
+      "y_coordinate": 200
+    }
+  },
+  {
+    "timestamp": 1760539725.691517,
+    "raw_data": {
+      "progress": 45,
+      "next_location": "Node7",
+      "previous_location": "Node11",
+      "x_coordinate": 72,
+      "y_coordinate": 245
+    }
+  },
+  {
+    "timestamp": 1760539728.6935494,
+    "raw_data": {
+      "progress": 90,
+      "next_location": "Node7",
+      "previous_location": "Node11",
+      "x_coordinate": 95,
+      "y_coordinate": 290
+    }
+  },
+  {
+    "timestamp": 1760539731.7079978,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node7",
+      "previous_location": "Node11",
+      "x_coordinate": 100,
+      "y_coordinate": 300
+    }
+  },
+  {
+    "timestamp": 1760539731.7168832,
+    "raw_data": {
+      "progress": 32,
+      "next_location": "Node3",
+      "previous_location": "Node7",
+      "x_coordinate": 147,
+      "y_coordinate": 316
+    }
+  },
+  {
+    "timestamp": 1760539734.7284443,
+    "raw_data": {
+      "progress": 64,
+      "next_location": "Node3",
+      "previous_location": "Node7",
+      "x_coordinate": 195,
+      "y_coordinate": 332
+    }
+  },
+  {
+    "timestamp": 1760539737.742245,
+    "raw_data": {
+      "progress": 96,
+      "next_location": "Node3",
+      "previous_location": "Node7",
+      "x_coordinate": 243,
+      "y_coordinate": 348
+    }
+  },
+  {
+    "timestamp": 1760539740.7620788,
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node3",
+      "previous_location": "Node7",
+      "x_coordinate": 250,
+      "y_coordinate": 350
+    }
+  },
+  {
+    "timestamp": 1760539758.0812607,
     "raw_data": {
       "progress": 32,
       "next_location": "Node7",
@@ -10,7 +530,7 @@
     }
   },
   {
-    "timestamp": 1759052164.7930915,
+    "timestamp": 1760539761.0921023,
     "raw_data": {
       "progress": 64,
       "next_location": "Node7",
@@ -20,7 +540,7 @@
     }
   },
   {
-    "timestamp": 1759052167.8044457,
+    "timestamp": 1760539764.1079211,
     "raw_data": {
       "progress": 96,
       "next_location": "Node7",
@@ -30,7 +550,7 @@
     }
   },
   {
-    "timestamp": 1759052170.8090487,
+    "timestamp": 1760539767.1209006,
     "raw_data": {
       "progress": 100,
       "next_location": "Node7",
@@ -40,43 +560,23 @@
     }
   },
   {
-    "timestamp": 1759052374.0822847,
+    "timestamp": 1760539788.099851,
     "raw_data": {
-      "progress": 28,
-      "next_location": "Node5",
-      "previous_location": "Node3",
-      "x_coordinate": 222,
-      "y_coordinate": 308
+      "progress": 45,
+      "next_location": "Node11",
+      "previous_location": "Node7",
+      "x_coordinate": 78,
+      "y_coordinate": 255
     }
   },
   {
-    "timestamp": 1759052377.0961351,
+    "timestamp": 1760539791.116563,
     "raw_data": {
-      "progress": 56,
-      "next_location": "Node5",
-      "previous_location": "Node3",
-      "x_coordinate": 194,
-      "y_coordinate": 266
-    }
-  },
-  {
-    "timestamp": 1759052380.1175506,
-    "raw_data": {
-      "progress": 84,
-      "next_location": "Node5",
-      "previous_location": "Node3",
-      "x_coordinate": 166,
-      "y_coordinate": 224
-    }
-  },
-  {
-    "timestamp": 1759052383.1308434,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node5",
-      "previous_location": "Node3",
-      "x_coordinate": 150,
-      "y_coordinate": 200
+      "progress": 90,
+      "next_location": "Node11",
+      "previous_location": "Node7",
+      "x_coordinate": 55,
+      "y_coordinate": 210
     }
   }
 ]

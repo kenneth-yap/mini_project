@@ -1,466 +1,55 @@
 {
     "state": "idle",
-    "current_task_id": "f3c940f6",
-    "proposals": {
-        "2": {
-            "task_id": "f3c940f6",
-            "vehicle_id": 2,
-            "estimated_time": 1.5713484026367723,
-            "is_busy": false,
-            "current_node": "Node2",
-            "planned_path": [
-                "Node2",
-                "Node9"
-            ],
-            "distance": 70.71067811865476,
-            "carbon": 94.38322947075196,
-            "cost": 131.68829313042036
-        },
-        "3": {
-            "task_id": "f3c940f6",
-            "vehicle_id": 3,
-            "estimated_time": 6.576491222541474,
-            "is_busy": false,
-            "current_node": "Node6",
-            "planned_path": [
-                "Node6",
-                "Node1",
-                "Node2",
-                "Node9"
-            ],
-            "distance": 328.8245611270737,
-            "carbon": 368.4379342277823,
-            "cost": 278.7763086108147
-        }
-    },
+    "current_task_id": "9052bb0f",
+    "proposals": {},
     "active_assignments": {
-        "a8fd9c3f": {
+        "c7309cd1": {
+            "vehicle_id": 1,
+            "destination": "Node10",
+            "start_time": 1760539562.5430377
+        },
+        "ea5e187a": {
+            "vehicle_id": 1,
+            "destination": "Node12",
+            "start_time": 1760539717.9481506
+        },
+        "bfb7fdb0": {
             "vehicle_id": 2,
             "destination": "Node2",
-            "start_time": 1759052526.8841274
+            "start_time": 1760539751.5511568
         },
-        "12aacc6f": {
+        "f802727c": {
             "vehicle_id": 3,
-            "destination": "Node3",
-            "start_time": 1759052542.9986417
+            "destination": "Node11",
+            "start_time": 1760539757.6942637
         },
-        "cca26722": {
-            "vehicle_id": 1,
-            "destination": "Node6",
-            "start_time": 1759052559.0888803
-        },
-        "bf27ee52": {
-            "vehicle_id": 2,
-            "destination": "Node8",
-            "start_time": 1759052639.5773997
-        },
-        "c3d566c6": {
-            "vehicle_id": 2,
-            "destination": "Node5",
-            "start_time": 1759052687.9101214
-        },
-        "ae59bb18": {
-            "vehicle_id": 1,
-            "destination": "Node4",
-            "start_time": 1759052720.5691063
-        },
-        "4851618e": {
-            "vehicle_id": 2,
-            "destination": "Node9",
-            "start_time": 1759052752.6783907
-        },
-        "46b20d2b": {
-            "vehicle_id": 1,
-            "destination": "Node4",
-            "start_time": 1759052785.1721869
-        },
-        "bbd18041": {
-            "vehicle_id": 2,
-            "destination": "Node8",
-            "start_time": 1759052817.089723
-        },
-        "ba878a58": {
-            "vehicle_id": 2,
-            "destination": "Node2",
-            "start_time": 1759052881.5428805
-        },
-        "8c2111bb": {
-            "vehicle_id": 3,
-            "destination": "Node5",
-            "start_time": 1759052913.7760985
-        },
-        "71a674b4": {
-            "vehicle_id": 2,
-            "destination": "Node2",
-            "start_time": 1759052978.2226558
-        },
-        "5935d1d5": {
-            "vehicle_id": 2,
-            "destination": "Node8",
-            "start_time": 1759053010.3841007
-        },
-        "8ec602bd": {
-            "vehicle_id": 3,
-            "destination": "Node3",
-            "start_time": 1759053042.5971167
-        },
-        "90de68fd": {
-            "vehicle_id": 1,
-            "destination": "Node6",
-            "start_time": 1759053074.8161893
-        },
-        "31654d33": {
-            "vehicle_id": 1,
-            "destination": "Node6",
-            "start_time": 1759053090.9089618
-        },
-        "5b3e4dd3": {
-            "vehicle_id": 3,
-            "destination": "Node5",
-            "start_time": 1759053155.4262817
-        },
-        "74407661": {
-            "vehicle_id": 1,
-            "destination": "Node9",
-            "start_time": 1759053252.1222386
-        },
-        "bea1b020": {
-            "vehicle_id": 3,
-            "destination": "Node3",
-            "start_time": 1759053365.254731
-        },
-        "24ac567e": {
-            "vehicle_id": 2,
-            "destination": "Node4",
-            "start_time": 1759053397.5916967
-        },
-        "a4f2a967": {
-            "vehicle_id": 3,
-            "destination": "Node3",
-            "start_time": 1759053510.8407655
-        },
-        "ec342e14": {
-            "vehicle_id": 3,
-            "destination": "Node6",
-            "start_time": 1759053543.1415741
-        },
-        "51ea1251": {
-            "vehicle_id": 2,
-            "destination": "Node7",
-            "start_time": 1759053591.773207
-        },
-        "12aee236": {
-            "vehicle_id": 2,
-            "destination": "Node3",
-            "start_time": 1759053656.4714108
-        },
-        "337c1bc2": {
-            "vehicle_id": 2,
-            "destination": "Node3",
-            "start_time": 1759053672.5436318
-        },
-        "5afcf63f": {
-            "vehicle_id": 1,
-            "destination": "Node4",
-            "start_time": 1759053865.883578
-        },
-        "1814686b": {
-            "vehicle_id": 3,
-            "destination": "Node6",
-            "start_time": 1759053898.0364795
-        },
-        "ccf8ee20": {
-            "vehicle_id": 3,
-            "destination": "Node6",
-            "start_time": 1759053994.7693791
-        },
-        "47ddee35": {
-            "vehicle_id": 2,
-            "destination": "Node4",
-            "start_time": 1759054027.0158267
-        },
-        "93f1b4f7": {
-            "vehicle_id": 2,
-            "destination": "Node4",
-            "start_time": 1759054043.1568112
-        },
-        "52331d8d": {
-            "vehicle_id": 3,
-            "destination": "Node6",
-            "start_time": 1759054075.3806405
-        },
-        "b5447c4f": {
-            "vehicle_id": 3,
-            "destination": "Node6",
-            "start_time": 1759054156.3442729
-        },
-        "8a433fe4": {
-            "vehicle_id": 1,
-            "destination": "Node9",
-            "start_time": 1759054220.8055632
-        },
-        "05be9155": {
-            "vehicle_id": 3,
-            "destination": "Node3",
-            "start_time": 1759054236.9025083
-        },
-        "0959cc5e": {
-            "vehicle_id": 3,
-            "destination": "Node6",
-            "start_time": 1759054285.306082
-        },
-        "c5bfd1f0": {
-            "vehicle_id": 2,
-            "destination": "Node7",
-            "start_time": 1759054382.064415
-        },
-        "3d020cbf": {
-            "vehicle_id": 2,
-            "destination": "Node7",
-            "start_time": 1759054446.8826208
-        },
-        "de731518": {
-            "vehicle_id": 2,
-            "destination": "Node7",
-            "start_time": 1759054511.5213127
-        },
-        "dcaefc48": {
-            "vehicle_id": 2,
-            "destination": "Node7",
-            "start_time": 1759054543.7354586
-        },
-        "ca51f9ab": {
-            "vehicle_id": 3,
-            "destination": "Node4",
-            "start_time": 1759054576.015423
-        },
-        "2fe25119": {
-            "vehicle_id": 2,
-            "destination": "Node3",
-            "start_time": 1759054592.1491008
-        },
-        "f72b5824": {
-            "vehicle_id": 1,
-            "destination": "Node8",
-            "start_time": 1759054608.2287102
-        },
-        "74b60750": {
-            "vehicle_id": 2,
-            "destination": "Node3",
-            "start_time": 1759054737.2869637
-        },
-        "5c2e30d6": {
-            "vehicle_id": 2,
-            "destination": "Node5",
-            "start_time": 1759054817.9916658
-        },
-        "167e9554": {
-            "vehicle_id": 3,
-            "destination": "Node6",
-            "start_time": 1759054882.5227575
-        },
-        "76277171": {
-            "vehicle_id": 3,
-            "destination": "Node6",
-            "start_time": 1759054898.6930537
-        },
-        "aee7d5e3": {
-            "vehicle_id": 1,
-            "destination": "Node5",
-            "start_time": 1759054930.9763298
-        },
-        "b627f116": {
-            "vehicle_id": 3,
-            "destination": "Node6",
-            "start_time": 1759055027.9056823
-        },
-        "954e60dc": {
+        "826e6a3d": {
             "vehicle_id": 1,
             "destination": "Node3",
-            "start_time": 1759055044.0110457
-        },
-        "39501f34": {
-            "vehicle_id": 3,
-            "destination": "Node6",
-            "start_time": 1759055060.1233757
-        },
-        "3297d779": {
-            "vehicle_id": 1,
-            "destination": "Node3",
-            "start_time": 1759055140.7884297
-        },
-        "3c09e20c": {
-            "vehicle_id": 2,
-            "destination": "Node8",
-            "start_time": 1759055156.8019984
-        },
-        "8d2c065b": {
-            "vehicle_id": 1,
-            "destination": "Node3",
-            "start_time": 1759055172.9324753
-        },
-        "f4bfde79": {
-            "vehicle_id": 2,
-            "destination": "Node9",
-            "start_time": 1759055205.2539833
-        },
-        "9c0c1514": {
-            "vehicle_id": 3,
-            "destination": "Node6",
-            "start_time": 1759055237.537371
-        },
-        "d9a3b6e5": {
-            "vehicle_id": 1,
-            "destination": "Node3",
-            "start_time": 1759055253.6944032
-        },
-        "b01dd91d": {
-            "vehicle_id": 3,
-            "destination": "Node6",
-            "start_time": 1759055269.8216023
-        },
-        "f73ac426": {
-            "vehicle_id": 2,
-            "destination": "Node8",
-            "start_time": 1759055366.9497793
-        },
-        "3d33e0a6": {
-            "vehicle_id": 1,
-            "destination": "Node5",
-            "start_time": 1759055399.1567943
-        },
-        "19f4a8e6": {
-            "vehicle_id": 3,
-            "destination": "Node6",
-            "start_time": 1759055431.4020069
+            "start_time": 1760539767.5782602
         }
     },
     "completed_tasks": [
-        "1176595d",
-        "40abdd7c",
-        "9c8bd1d5",
-        "6e139c4c",
-        "bbaf73f6",
-        "0b9d1bf9",
-        "8f0cdc41",
-        "3c0a6381",
-        "47b1fbc1",
-        "6d92d634",
-        "77c9b19a",
-        "a84a8bf9",
-        "931d40d6",
-        "380fb634",
-        "f860a017",
-        "c3b2625d",
-        "605adaab",
-        "2bdedb39",
-        "9aaa931c",
-        "ce9534d9",
-        "41381815",
-        "f6b31edf",
-        "5708c230",
-        "60662e9e",
-        "dfbc1fb3",
-        "5049b9e0",
-        "db1a9c48",
-        "7a828067",
-        "ed0240a7",
-        "c12a18e7",
-        "7aa72b1d",
-        "e306f847",
-        "7933ad17",
-        "acc01d4f",
-        "ca7eb7e4",
-        "a7c020e3",
-        "b3651b6c",
-        "4c4821f2",
-        "bdafb64e",
-        "9cd22a8e",
-        "57046444",
-        "189e253b",
-        "4036ea50",
-        "425033df",
-        "bf4ca425",
-        "67374df2",
-        "60892923",
-        "cbc0e4bd",
-        "3275d4b8",
-        "6fcbd388",
-        "eca28b1e",
-        "d994abf6",
-        "ff038451",
-        "75019043",
-        "271823b4",
-        "d918965c",
-        "0f95beda",
-        "9492f0d9",
-        "3253ee9e",
-        "a11eeecc",
-        "a1da8129",
-        "5117948a",
-        "a9e26e9f",
-        "6af95388",
-        "9550bc56",
-        "36b3f9d6",
-        "45f78a35",
-        "81e3d2b7",
-        "21bbdfff",
-        "4ab0f816",
-        "3c8d95ef",
-        "e6888fd2",
-        "d8d1234e",
-        "b4bdc543",
-        "b88945cf",
-        "8d96fb7f",
-        "c502e848",
-        "8693de60",
-        "c53b3d88",
-        "2951b6f5",
-        "60125335",
-        "6b6c29b0",
-        "d896bb7b",
-        "6fedc864",
-        "0fbd4ba0",
-        "fc99138d",
-        "f084be44",
-        "31cd8efd",
-        "ebe6d676",
-        "42f85ec3",
-        "f4910bb8",
-        "bba7db24",
-        "c8561e65",
-        "cbe0071d",
-        "151b3787",
-        "bf763c65",
-        "f3e82983",
-        "47f51bc2",
-        "6518be47",
-        "3ed5737b",
-        "2141168a",
-        "6fb284d8",
-        "d64f7772",
-        "7e943613",
-        "4e4a905f",
-        "2c9d9584",
-        "915dda7d",
-        "0e0e2bd9",
-        "d4c3c16c",
-        "a16daa2b",
-        "159b7c70",
-        "afbaa384",
-        "80314ac9",
-        "403f2110",
-        "83c1a0b7",
-        "14d7e885",
-        "20755064",
-        "9c34192e",
-        "b57fd09e",
-        "328f64fc",
-        "f9d94214",
-        "e9eda602",
-        "079c1dd8"
+        "3802fcbf",
+        "b2204012",
+        "83419721",
+        "724d4b83",
+        "f9d9ddff",
+        "c2eb83f7",
+        "f0175ab1",
+        "39876451",
+        "3b7b6946",
+        "1143a5ea",
+        "6be36644",
+        "6dd96d18",
+        "e0524cad",
+        "476d067b",
+        "e2d33714",
+        "218eba38",
+        "4b36b296",
+        "8edcf00f"
     ],
     "awaiting_responses": true,
-    "current_destination": "Node9",
-    "last_cfp_time": 1759055446.0546331
+    "current_destination": "Node5",
+    "last_cfp_time": 1760539778.344982
 }

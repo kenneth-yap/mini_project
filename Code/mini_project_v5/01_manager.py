@@ -40,7 +40,7 @@ def cleanup_old_storage():
 cleanup_old_storage()
 
 # File path for map
-MAP_FILE = r"C:\Users\hhy26\OneDrive - University of Cambridge\Desktop\01_PhD\04_First_Year_Report\04_vehicle_simulator_0.1.2\vehicle_simulator\map.txt"
+MAP_FILE = r"C:\Users\hhy26\OneDrive - University of Cambridge\Desktop\01_PhD\04_First_Year_Report\00_vehicle_simulator_0.1.2\vehicle_simulator\map.txt"
 
 def load_nodes_from_map(map_file_path: str) -> List[str]:
     """Load all node names from the map.txt file"""
@@ -151,7 +151,7 @@ async def startup(ctx: Context):
     ctx.storage.set("completed_tasks", [])
     ctx.storage.set("awaiting_responses", False)
 
-@manager.on_interval(period=15.0)
+@manager.on_interval(period=5.0)
 async def send_call_for_proposal(ctx: Context):
     """Send out call for proposal every 20 seconds"""
     

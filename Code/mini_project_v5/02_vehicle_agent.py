@@ -32,8 +32,8 @@ DT_HOST = "127.0.0.1"
 ROUTING_PRIORITY = vehicle_number
 
 # File paths - same as test_dt_2.py
-MAP_FILE = r"C:\Users\hhy26\OneDrive - University of Cambridge\Desktop\01_PhD\04_First_Year_Report\04_vehicle_simulator_0.1.2\vehicle_simulator\map.txt"
-VEHICLES_FILE = r"C:\Users\hhy26\OneDrive - University of Cambridge\Desktop\01_PhD\04_First_Year_Report\04_vehicle_simulator_0.1.2\vehicle_simulator\vehicles.txt"
+MAP_FILE = r"C:\Users\hhy26\OneDrive - University of Cambridge\Desktop\01_PhD\04_First_Year_Report\00_vehicle_simulator_0.1.2\vehicle_simulator\map.txt"
+VEHICLES_FILE = r"C:\Users\hhy26\OneDrive - University of Cambridge\Desktop\01_PhD\04_First_Year_Report\00_vehicle_simulator_0.1.2\vehicle_simulator\vehicles.txt"
 
 # Manager address
 MANAGER_ADDRESS = "agent1qfjcg2h5c2d2qkzksc8wntkpcyflntz0w8lsh2q6nwqpe6a2dn5ps88aqq3"
