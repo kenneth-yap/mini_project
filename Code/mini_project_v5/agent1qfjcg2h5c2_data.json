@@ -1,55 +1,589 @@
 {
     "state": "idle",
-    "current_task_id": "9052bb0f",
-    "proposals": {},
-    "active_assignments": {
-        "c7309cd1": {
+    "current_task_id": "92610167",
+    "proposals": {
+        "1": {
+            "task_id": "92610167",
             "vehicle_id": 1,
-            "destination": "Node10",
-            "start_time": 1760539562.5430377
+            "estimated_time": 3.1943828249996997,
+            "is_busy": false,
+            "current_node": "Node2",
+            "planned_path": [
+                "Node2",
+                "Node4"
+            ],
+            "distance": 111.80339887498948,
+            "carbon": 183.12478468557927,
+            "cost": 14.740598647845824
         },
-        "ea5e187a": {
-            "vehicle_id": 1,
-            "destination": "Node12",
-            "start_time": 1760539717.9481506
-        },
-        "bfb7fdb0": {
+        "2": {
+            "task_id": "92610167",
             "vehicle_id": 2,
-            "destination": "Node2",
-            "start_time": 1760539751.5511568
+            "estimated_time": 4.969039949999533,
+            "is_busy": false,
+            "current_node": "Node5",
+            "planned_path": [
+                "Node5",
+                "Node2",
+                "Node4"
+            ],
+            "distance": 223.60679774997897,
+            "carbon": 241.13254508218517,
+            "cost": 348.7422793941811
         },
-        "f802727c": {
+        "3": {
+            "task_id": "92610167",
             "vehicle_id": 3,
-            "destination": "Node11",
-            "start_time": 1760539757.6942637
-        },
-        "826e6a3d": {
-            "vehicle_id": 1,
-            "destination": "Node3",
-            "start_time": 1760539767.5782602
+            "estimated_time": null,
+            "is_busy": true,
+            "current_node": "Node1",
+            "planned_path": null,
+            "distance": null,
+            "carbon": null,
+            "cost": null
         }
     },
+    "active_assignments": {},
     "completed_tasks": [
-        "3802fcbf",
-        "b2204012",
-        "83419721",
-        "724d4b83",
-        "f9d9ddff",
-        "c2eb83f7",
-        "f0175ab1",
-        "39876451",
-        "3b7b6946",
-        "1143a5ea",
-        "6be36644",
-        "6dd96d18",
-        "e0524cad",
-        "476d067b",
-        "e2d33714",
-        "218eba38",
-        "4b36b296",
-        "8edcf00f"
+        "3776dda8",
+        "bb7d19d7",
+        "242333b7",
+        "82e74ab6",
+        "de5a5031",
+        "9c64f6f8",
+        "3c82d989",
+        "be1edc42",
+        "257cbaf0",
+        "96456ba9",
+        "e5f45b88",
+        "59920811",
+        "e0f60f8c",
+        "5a15be17",
+        "85a9e745",
+        "cbe93b24",
+        "1d67dba5",
+        "3f30f493",
+        "cab18a97",
+        "1062b918",
+        "c0df2a80",
+        "e3c93d6a",
+        "df0ba086",
+        "7a2d3a80",
+        "4691c3c4",
+        "a1bb4d24",
+        "edd7aacf",
+        "2e9a1af8",
+        "acff1e38",
+        "92610167"
     ],
-    "awaiting_responses": true,
-    "current_destination": "Node5",
-    "last_cfp_time": 1760539778.344982
+    "awaiting_responses": false,
+    "task_history": [
+        {
+            "task_id": "3776dda8",
+            "destination": "Node7",
+            "cfp_timestamp": 1762004716.1373127,
+            "cfp_datetime": "2025-11-01T13:45:16.137313",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "bb7d19d7",
+            "destination": "Node6",
+            "cfp_timestamp": 1762004727.2422433,
+            "cfp_datetime": "2025-11-01T13:45:27.242243",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "242333b7",
+            "destination": "Node3",
+            "cfp_timestamp": 1762004738.4936788,
+            "cfp_datetime": "2025-11-01T13:45:38.493679",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "82e74ab6",
+            "destination": "Node4",
+            "cfp_timestamp": 1762004749.530067,
+            "cfp_datetime": "2025-11-01T13:45:49.530067",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "de5a5031",
+            "destination": "Node3",
+            "cfp_timestamp": 1762004760.6120877,
+            "cfp_datetime": "2025-11-01T13:46:00.612088",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "9c64f6f8",
+            "destination": "Node5",
+            "cfp_timestamp": 1762004771.8465152,
+            "cfp_datetime": "2025-11-01T13:46:11.846515",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "3c82d989",
+            "destination": "Node2",
+            "cfp_timestamp": 1762004782.9176495,
+            "cfp_datetime": "2025-11-01T13:46:22.917650",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "be1edc42",
+            "destination": "Node6",
+            "cfp_timestamp": 1762004793.9993377,
+            "cfp_datetime": "2025-11-01T13:46:33.999338",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "257cbaf0",
+            "destination": "Node5",
+            "cfp_timestamp": 1762004805.0538545,
+            "cfp_datetime": "2025-11-01T13:46:45.053854",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "96456ba9",
+            "destination": "Node5",
+            "cfp_timestamp": 1762004816.0935252,
+            "cfp_datetime": "2025-11-01T13:46:56.093525",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "e5f45b88",
+            "destination": "Node5",
+            "cfp_timestamp": 1762004827.324481,
+            "cfp_datetime": "2025-11-01T13:47:07.324481",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "e0f60f8c",
+            "destination": "Node3",
+            "cfp_timestamp": 1762004838.4894328,
+            "cfp_datetime": "2025-11-01T13:47:18.489433",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "59920811",
+            "destination": "Node8",
+            "cfp_timestamp": 1762004849.558651,
+            "cfp_datetime": "2025-11-01T13:47:29.558651",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "5a15be17",
+            "destination": "Node5",
+            "cfp_timestamp": 1762004860.7520566,
+            "cfp_datetime": "2025-11-01T13:47:40.752057",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "cbe93b24",
+            "destination": "Node8",
+            "cfp_timestamp": 1762004871.8145225,
+            "cfp_datetime": "2025-11-01T13:47:51.814523",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "85a9e745",
+            "destination": "Node6",
+            "cfp_timestamp": 1762004882.8607628,
+            "cfp_datetime": "2025-11-01T13:48:02.860763",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "1d67dba5",
+            "destination": "Node3",
+            "cfp_timestamp": 1762004893.9458027,
+            "cfp_datetime": "2025-11-01T13:48:13.945803",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "1062b918",
+            "destination": "Node3",
+            "cfp_timestamp": 1762004905.0117886,
+            "cfp_datetime": "2025-11-01T13:48:25.011789",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "3f30f493",
+            "destination": "Node6",
+            "cfp_timestamp": 1762004916.1125321,
+            "cfp_datetime": "2025-11-01T13:48:36.112532",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "cab18a97",
+            "destination": "Node9",
+            "cfp_timestamp": 1762004927.1782563,
+            "cfp_datetime": "2025-11-01T13:48:47.178256",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "c0df2a80",
+            "destination": "Node5",
+            "cfp_timestamp": 1762004938.2985704,
+            "cfp_datetime": "2025-11-01T13:48:58.298570",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "e3c93d6a",
+            "destination": "Node5",
+            "cfp_timestamp": 1762004949.477048,
+            "cfp_datetime": "2025-11-01T13:49:09.477048",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "df0ba086",
+            "destination": "Node8",
+            "cfp_timestamp": 1762004960.5618303,
+            "cfp_datetime": "2025-11-01T13:49:20.561830",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "7a2d3a80",
+            "destination": "Node3",
+            "cfp_timestamp": 1762004971.6533601,
+            "cfp_datetime": "2025-11-01T13:49:31.653360",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "4691c3c4",
+            "destination": "Node2",
+            "cfp_timestamp": 1762004982.724829,
+            "cfp_datetime": "2025-11-01T13:49:42.724829",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "a1bb4d24",
+            "destination": "Node7",
+            "cfp_timestamp": 1762004993.8405824,
+            "cfp_datetime": "2025-11-01T13:49:53.840582",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "2e9a1af8",
+            "destination": "Node5",
+            "cfp_timestamp": 1762005004.9460113,
+            "cfp_datetime": "2025-11-01T13:50:04.946011",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "acff1e38",
+            "destination": "Node3",
+            "cfp_timestamp": 1762005016.0221996,
+            "cfp_datetime": "2025-11-01T13:50:16.022200",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "edd7aacf",
+            "destination": "Node2",
+            "cfp_timestamp": 1762005027.088594,
+            "cfp_datetime": "2025-11-01T13:50:27.088594",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        },
+        {
+            "task_id": "92610167",
+            "destination": "Node4",
+            "cfp_timestamp": 1762005038.4112473,
+            "cfp_datetime": "2025-11-01T13:50:38.411247",
+            "vehicles_contacted": [
+                1,
+                2,
+                3
+            ],
+            "status": "cfp_sent"
+        }
+    ],
+    "vehicle_metrics": {
+        "1": {
+            "tasks_assigned": 9,
+            "tasks_completed": 9,
+            "tasks_rejected": 0,
+            "total_estimated_time": 27.653306533104125,
+            "total_distance": 0.0,
+            "busy_time": 0.0,
+            "idle_time": 0.0,
+            "proposals_submitted": 30,
+            "avg_response_time": 0.94273734887441,
+            "response_times": [
+                1.0645201206207275,
+                1.0611064434051514,
+                0.8401718139648438,
+                1.0223400592803955,
+                1.127002477645874,
+                0.8711986541748047,
+                0.9553511142730713,
+                0.8693711757659912,
+                0.8557181358337402,
+                1.0779345035552979,
+                0.9978246688842773,
+                0.8929619789123535,
+                0.9774892330169678,
+                0.8858814239501953,
+                0.8745841979980469,
+                0.8916945457458496,
+                0.9090545177459717,
+                0.9075179100036621,
+                0.857691764831543,
+                0.9100422859191895,
+                0.9868149757385254,
+                0.8743176460266113,
+                0.9571075439453125,
+                0.8663482666015625,
+                0.9154746532440186,
+                0.8979179859161377,
+                0.905010461807251,
+                0.8816714286804199,
+                1.1745545864105225,
+                0.9734458923339844
+            ]
+        },
+        "2": {
+            "tasks_assigned": 9,
+            "tasks_completed": 9,
+            "tasks_rejected": 0,
+            "total_estimated_time": 30.70431712480852,
+            "total_distance": 0.0,
+            "busy_time": 0.0,
+            "idle_time": 0.0,
+            "proposals_submitted": 30,
+            "avg_response_time": 1.2419197003046671,
+            "response_times": [
+                1.1802079677581787,
+                1.359562873840332,
+                1.1082875728607178,
+                1.142012596130371,
+                1.423504114151001,
+                1.1378450393676758,
+                1.2852141857147217,
+                2.325615644454956,
+                1.1172411441802979,
+                1.3063349723815918,
+                1.2302498817443848,
+                1.142521858215332,
+                1.2582495212554932,
+                1.1343252658843994,
+                1.154771089553833,
+                1.1589274406433105,
+                1.124239206314087,
+                1.1882367134094238,
+                1.1444549560546875,
+                1.2163023948669434,
+                1.249298334121704,
+                1.1585924625396729,
+                1.292907953262329,
+                1.1448769569396973,
+                1.191471815109253,
+                1.1616535186767578,
+                1.1726982593536377,
+                1.1457898616790771,
+                1.3778076171875,
+                1.2243897914886475
+            ]
+        },
+        "3": {
+            "tasks_assigned": 12,
+            "tasks_completed": 12,
+            "tasks_rejected": 0,
+            "total_estimated_time": 36.45354552482872,
+            "total_distance": 0.0,
+            "busy_time": 0.0,
+            "idle_time": 0.0,
+            "proposals_submitted": 30,
+            "avg_response_time": 1.468480110168457,
+            "response_times": [
+                1.4468634128570557,
+                1.6124885082244873,
+                1.3708062171936035,
+                1.4250128269195557,
+                1.6582927703857422,
+                1.406470775604248,
+                1.4178705215454102,
+                1.403256893157959,
+                1.3831727504730225,
+                1.5749475955963135,
+                1.5091686248779297,
+                1.4119338989257812,
+                1.5278539657592773,
+                1.4170022010803223,
+                1.5860905647277832,
+                1.440077781677246,
+                1.4052505493164062,
+                1.4413466453552246,
+                1.40716552734375,
+                1.4558875560760498,
+                1.5200283527374268,
+                1.4342498779296875,
+                1.457695722579956,
+                1.4148008823394775,
+                1.4448680877685547,
+                1.4736356735229492,
+                1.4182686805725098,
+                1.4048800468444824,
+                1.6709740161895752,
+                1.5140423774719238
+            ]
+        }
+    },
+    "message_count": {
+        "cfp_sent": 30,
+        "proposals_received": 90,
+        "assignments_sent": 30,
+        "acceptances_received": 30,
+        "completions_received": 30,
+        "updates_received": 106
+    },
+    "simulation_start_time": 1762004716.0725546,
+    "tasks_sent_count": 30,
+    "max_tasks": 30,
+    "simulation_stopped": true,
+    "export_triggered": true,
+    "current_destination": "Node4",
+    "last_cfp_time": 1762005038.4112473,
+    "current_cfp_timestamp": 1762005038.4112473
 }

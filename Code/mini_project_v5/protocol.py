@@ -43,4 +43,5 @@ class NodeUpdate(Model):
     """Vehicle sends current position updates"""
     vehicle_id: int
     current_node: str
+    next_node: str
     progress: float

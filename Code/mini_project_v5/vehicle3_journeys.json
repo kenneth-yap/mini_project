@@ -1,0 +1,920 @@
+[
+  {
+    "journey_id": "J_3_1",
+    "start_node": "Node3",
+    "end_node": "Node7",
+    "start_time": 1762004717.9570289,
+    "start_position": [
+      203,
+      334
+    ],
+    "start_distance": 0.0,
+    "start_carbon": 0.0,
+    "start_cost": 0.0,
+    "waypoints": [
+      {
+        "timestamp": 1762004717.9570289,
+        "progress": 32,
+        "position": [
+          203,
+          334
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004720.9713657,
+        "progress": 64,
+        "position": [
+          155,
+          318
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004723.9781067,
+        "progress": 96,
+        "position": [
+          107,
+          302
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004726.9994528,
+        "progress": 100,
+        "position": [
+          100,
+          300
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004726.9994528,
+    "end_position": [
+      100,
+      300
+    ],
+    "duration": 9.042423963546753,
+    "distance_traveled": 108.47299501466867,
+    "straight_line_distance": 108.4665847162157,
+    "path_efficiency": 99.9940904199685,
+    "carbon_emitted": 13.01675940176024,
+    "cost_incurred": 55.140739903689,
+    "average_velocity": 11.996008531778882,
+    "waypoint_count": 4,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_2",
+    "start_node": "Node7",
+    "end_node": "Node3",
+    "start_time": 1762004740.4028728,
+    "start_position": [
+      147,
+      316
+    ],
+    "start_distance": 158.1217613638943,
+    "start_carbon": 18.974611363667314,
+    "start_cost": 81.30546507544842,
+    "waypoints": [
+      {
+        "timestamp": 1762004740.4028728,
+        "progress": 32,
+        "position": [
+          147,
+          316
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004743.4196916,
+        "progress": 64,
+        "position": [
+          195,
+          332
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004746.4905078,
+        "progress": 96,
+        "position": [
+          243,
+          348
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004749.498629,
+        "progress": 100,
+        "position": [
+          250,
+          350
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004749.498629,
+    "end_position": [
+      250,
+      350
+    ],
+    "duration": 9.09575629234314,
+    "distance_traveled": 108.47299501466867,
+    "straight_line_distance": 108.4665847162157,
+    "path_efficiency": 99.9940904199685,
+    "carbon_emitted": 13.01675940176024,
+    "cost_incurred": 55.14607313656866,
+    "average_velocity": 11.925670777479148,
+    "waypoint_count": 4,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_3",
+    "start_node": "Node3",
+    "end_node": "Node1",
+    "start_time": 1762004773.6254961,
+    "start_position": [
+      250,
+      300
+    ],
+    "start_distance": 316.594756378563,
+    "start_carbon": 37.991370765427554,
+    "start_cost": 163.86422491760638,
+    "waypoints": [
+      {
+        "timestamp": 1762004773.6254961,
+        "progress": 50,
+        "position": [
+          250,
+          300
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004776.6404037,
+        "progress": 100,
+        "position": [
+          250,
+          250
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004776.6404037,
+    "end_position": [
+      250,
+      250
+    ],
+    "duration": 3.0149075984954834,
+    "distance_traveled": 50.0,
+    "straight_line_distance": 50.0,
+    "path_efficiency": 100.0,
+    "carbon_emitted": 6.0,
+    "cost_incurred": 25.301490759849543,
+    "average_velocity": 16.584256189128745,
+    "waypoint_count": 2,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_4",
+    "start_node": "Node1",
+    "end_node": "Node5",
+    "start_time": 1762004776.98833,
+    "start_position": [
+      205,
+      228
+    ],
+    "start_distance": 416.68467552403575,
+    "start_carbon": 50.002161062884284,
+    "start_cost": 214.24546786417545,
+    "waypoints": [
+      {
+        "timestamp": 1762004776.98833,
+        "progress": 45,
+        "position": [
+          205,
+          228
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004780.0042443,
+        "progress": 90,
+        "position": [
+          160,
+          205
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004783.0150137,
+        "progress": 100,
+        "position": [
+          150,
+          200
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004783.0150137,
+    "end_position": [
+      150,
+      200
+    ],
+    "duration": 6.026683807373047,
+    "distance_traveled": 61.71745496147207,
+    "straight_line_distance": 61.71709649683789,
+    "path_efficiency": 99.99941918435489,
+    "carbon_emitted": 7.4060945953766435,
+    "cost_incurred": 31.461395861473335,
+    "average_velocity": 10.240699020241765,
+    "waypoint_count": 3,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_5",
+    "start_node": "Node5",
+    "end_node": "Node1",
+    "start_time": 1762004840.2911437,
+    "start_position": [
+      195,
+      222
+    ],
+    "start_distance": 528.4920496309805,
+    "start_carbon": 63.419045955717664,
+    "start_cost": 276.47943629448656,
+    "waypoints": [
+      {
+        "timestamp": 1762004840.2911437,
+        "progress": 45,
+        "position": [
+          195,
+          222
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004843.309441,
+        "progress": 90,
+        "position": [
+          240,
+          245
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004846.323048,
+        "progress": 100,
+        "position": [
+          250,
+          250
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004846.323048,
+    "end_position": [
+      250,
+      250
+    ],
+    "duration": 6.031904458999634,
+    "distance_traveled": 61.71745496147207,
+    "straight_line_distance": 61.71709649683789,
+    "path_efficiency": 99.99941918435489,
+    "carbon_emitted": 7.406094595376658,
+    "cost_incurred": 31.461917926635977,
+    "average_velocity": 10.2318356301863,
+    "waypoint_count": 3,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_6",
+    "start_node": "Node1",
+    "end_node": "Node3",
+    "start_time": 1762004846.717541,
+    "start_position": [
+      250,
+      300
+    ],
+    "start_distance": 640.2095045924526,
+    "start_carbon": 76.82514055109432,
+    "start_cost": 332.9808035075834,
+    "waypoints": [
+      {
+        "timestamp": 1762004846.717541,
+        "progress": 50,
+        "position": [
+          250,
+          300
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004849.7372427,
+        "progress": 100,
+        "position": [
+          250,
+          350
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004849.7372427,
+    "end_position": [
+      250,
+      350
+    ],
+    "duration": 3.0197017192840576,
+    "distance_traveled": 50.0,
+    "straight_line_distance": 50.0,
+    "path_efficiency": 100.0,
+    "carbon_emitted": 6.0,
+    "cost_incurred": 25.301970171928417,
+    "average_velocity": 16.55792679147612,
+    "waypoint_count": 2,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_7",
+    "start_node": "Node3",
+    "end_node": "Node1",
+    "start_time": 1762004873.8226333,
+    "start_position": [
+      250,
+      300
+    ],
+    "start_distance": 740.2095045924526,
+    "start_carbon": 88.82514055109432,
+    "start_cost": 385.6913127362898,
+    "waypoints": [
+      {
+        "timestamp": 1762004873.8226333,
+        "progress": 50,
+        "position": [
+          250,
+          300
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004876.8357446,
+        "progress": 100,
+        "position": [
+          250,
+          250
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004876.8357446,
+    "end_position": [
+      250,
+      250
+    ],
+    "duration": 3.0131113529205322,
+    "distance_traveled": 50.0,
+    "straight_line_distance": 50.0,
+    "path_efficiency": 100.0,
+    "carbon_emitted": 6.0,
+    "cost_incurred": 25.301311135292053,
+    "average_velocity": 16.594142779202723,
+    "waypoint_count": 2,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_8",
+    "start_node": "Node1",
+    "end_node": "Node2",
+    "start_time": 1762004877.2236202,
+    "start_position": [
+      250,
+      200
+    ],
+    "start_distance": 840.2095045924526,
+    "start_carbon": 100.82514055109432,
+    "start_cost": 436.0314114272764,
+    "waypoints": [
+      {
+        "timestamp": 1762004877.2236202,
+        "progress": 50,
+        "position": [
+          250,
+          200
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004880.232613,
+        "progress": 100,
+        "position": [
+          250,
+          150
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004880.232613,
+    "end_position": [
+      250,
+      150
+    ],
+    "duration": 3.008992910385132,
+    "distance_traveled": 50.0,
+    "straight_line_distance": 50.0,
+    "path_efficiency": 100.0,
+    "carbon_emitted": 6.0,
+    "cost_incurred": 25.30089929103849,
+    "average_velocity": 16.61685536959285,
+    "waypoint_count": 2,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_9",
+    "start_node": "Node2",
+    "end_node": "Node8",
+    "start_time": 1762004887.969734,
+    "start_position": [
+      215,
+      115
+    ],
+    "start_distance": 939.706979275511,
+    "start_carbon": 112.76483751306132,
+    "start_cost": 486.8547601465216,
+    "waypoints": [
+      {
+        "timestamp": 1762004887.969734,
+        "progress": 71,
+        "position": [
+          215,
+          115
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004890.9738348,
+        "progress": 100,
+        "position": [
+          200,
+          100
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004890.9738348,
+    "end_position": [
+      200,
+      100
+    ],
+    "duration": 3.004100799560547,
+    "distance_traveled": 21.21320343559637,
+    "straight_line_distance": 21.213203435596427,
+    "path_efficiency": 100.00000000000027,
+    "carbon_emitted": 2.545584412271566,
+    "cost_incurred": 10.907011797754251,
+    "average_velocity": 7.061415328906251,
+    "waypoint_count": 2,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_10",
+    "start_node": "Node8",
+    "end_node": "Node2",
+    "start_time": 1762004906.8284302,
+    "start_position": [
+      235,
+      135
+    ],
+    "start_distance": 1010.4176573941656,
+    "start_carbon": 121.25011888729989,
+    "start_cost": 524.0959688280794,
+    "waypoints": [
+      {
+        "timestamp": 1762004906.8284302,
+        "progress": 71,
+        "position": [
+          235,
+          135
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004909.9052632,
+        "progress": 100,
+        "position": [
+          250,
+          150
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004909.9052632,
+    "end_position": [
+      250,
+      150
+    ],
+    "duration": 3.0768330097198486,
+    "distance_traveled": 21.21320343559637,
+    "straight_line_distance": 21.213203435596427,
+    "path_efficiency": 100.00000000000027,
+    "carbon_emitted": 2.545584412271566,
+    "cost_incurred": 10.914285018770215,
+    "average_velocity": 6.894492931070014,
+    "waypoint_count": 2,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_11",
+    "start_node": "Node2",
+    "end_node": "Node1",
+    "start_time": 1762004937.2440372,
+    "start_position": [
+      250,
+      200
+    ],
+    "start_distance": 1081.630860829762,
+    "start_carbon": 129.79570329957147,
+    "start_cost": 562.7441312434332,
+    "waypoints": [
+      {
+        "timestamp": 1762004937.2440372,
+        "progress": 50,
+        "position": [
+          250,
+          200
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004940.2570128,
+        "progress": 100,
+        "position": [
+          250,
+          250
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004940.2570128,
+    "end_position": [
+      250,
+      250
+    ],
+    "duration": 3.0129756927490234,
+    "distance_traveled": 50.0,
+    "straight_line_distance": 50.0,
+    "path_efficiency": 100.0,
+    "carbon_emitted": 6.0,
+    "cost_incurred": 25.30129756927488,
+    "average_velocity": 16.594889935663655,
+    "waypoint_count": 2,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_12",
+    "start_node": "Node1",
+    "end_node": "Node3",
+    "start_time": 1762004947.974163,
+    "start_position": [
+      250,
+      300
+    ],
+    "start_distance": 1181.630860829762,
+    "start_carbon": 141.79570329957147,
+    "start_cost": 613.8171438338416,
+    "waypoints": [
+      {
+        "timestamp": 1762004947.974163,
+        "progress": 50,
+        "position": [
+          250,
+          300
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004950.9909055,
+        "progress": 100,
+        "position": [
+          250,
+          350
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004950.9909055,
+    "end_position": [
+      250,
+      350
+    ],
+    "duration": 3.016742467880249,
+    "distance_traveled": 50.0,
+    "straight_line_distance": 50.0,
+    "path_efficiency": 100.0,
+    "carbon_emitted": 6.0,
+    "cost_incurred": 25.301674246788025,
+    "average_velocity": 16.57416916835235,
+    "waypoint_count": 2,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_13",
+    "start_node": "Node3",
+    "end_node": "Node1",
+    "start_time": 1762004962.386813,
+    "start_position": [
+      250,
+      300
+    ],
+    "start_distance": 1281.630860829762,
+    "start_carbon": 153.79570329957147,
+    "start_cost": 665.2584088208334,
+    "waypoints": [
+      {
+        "timestamp": 1762004962.386813,
+        "progress": 50,
+        "position": [
+          250,
+          300
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004965.3975048,
+        "progress": 100,
+        "position": [
+          250,
+          250
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004965.3975048,
+    "end_position": [
+      250,
+      250
+    ],
+    "duration": 3.0106918811798096,
+    "distance_traveled": 50.0,
+    "straight_line_distance": 50.0,
+    "path_efficiency": 100.0,
+    "carbon_emitted": 6.0,
+    "cost_incurred": 25.301069188117935,
+    "average_velocity": 16.60747827187362,
+    "waypoint_count": 2,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_14",
+    "start_node": "Node1",
+    "end_node": "Node2",
+    "start_time": 1762004965.8533692,
+    "start_position": [
+      250,
+      200
+    ],
+    "start_distance": 1381.630860829762,
+    "start_carbon": 165.79570329957147,
+    "start_cost": 715.6050644518988,
+    "waypoints": [
+      {
+        "timestamp": 1762004965.8533692,
+        "progress": 50,
+        "position": [
+          250,
+          200
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004968.8633578,
+        "progress": 100,
+        "position": [
+          250,
+          150
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004968.8633578,
+    "end_position": [
+      250,
+      150
+    ],
+    "duration": 3.00998854637146,
+    "distance_traveled": 50.0,
+    "straight_line_distance": 50.0,
+    "path_efficiency": 100.0,
+    "carbon_emitted": 6.0,
+    "cost_incurred": 25.3009988546371,
+    "average_velocity": 16.611358890476502,
+    "waypoint_count": 2,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_15",
+    "start_node": "Node2",
+    "end_node": "Node8",
+    "start_time": 1762004976.539746,
+    "start_position": [
+      215,
+      115
+    ],
+    "start_distance": 1481.1283355128203,
+    "start_carbon": 177.73540026153847,
+    "start_cost": 766.4224394744352,
+    "waypoints": [
+      {
+        "timestamp": 1762004976.539746,
+        "progress": 71,
+        "position": [
+          215,
+          115
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762004979.5530975,
+        "progress": 100,
+        "position": [
+          200,
+          100
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762004979.5530975,
+    "end_position": [
+      200,
+      100
+    ],
+    "duration": 3.0133514404296875,
+    "distance_traveled": 21.21320343559637,
+    "straight_line_distance": 21.213203435596427,
+    "path_efficiency": 100.00000000000027,
+    "carbon_emitted": 2.5455844122715803,
+    "cost_incurred": 10.907936861841222,
+    "average_velocity": 7.039737599465492,
+    "waypoint_count": 2,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_16",
+    "start_node": "Node8",
+    "end_node": "Node2",
+    "start_time": 1762005017.8106394,
+    "start_position": [
+      235,
+      135
+    ],
+    "start_distance": 1551.839013631475,
+    "start_carbon": 186.22068163577705,
+    "start_cost": 805.9048678672968,
+    "waypoints": [
+      {
+        "timestamp": 1762005017.8106394,
+        "progress": 71,
+        "position": [
+          235,
+          135
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762005020.8186731,
+        "progress": 100,
+        "position": [
+          250,
+          150
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762005020.8186731,
+    "end_position": [
+      250,
+      150
+    ],
+    "duration": 3.0080337524414062,
+    "distance_traveled": 21.21320343559637,
+    "straight_line_distance": 21.213203435596427,
+    "path_efficiency": 100.00000000000027,
+    "carbon_emitted": 2.5455844122715803,
+    "cost_incurred": 10.907405093042371,
+    "average_velocity": 7.052182648675111,
+    "waypoint_count": 2,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_17",
+    "start_node": "Node2",
+    "end_node": "Node1",
+    "start_time": 1762005021.2007995,
+    "start_position": [
+      250,
+      200
+    ],
+    "start_distance": 1623.0522170670713,
+    "start_carbon": 194.76626604804864,
+    "start_cost": 841.8504855934722,
+    "waypoints": [
+      {
+        "timestamp": 1762005021.2007995,
+        "progress": 50,
+        "position": [
+          250,
+          200
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762005024.2065814,
+        "progress": 100,
+        "position": [
+          250,
+          250
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762005024.2065814,
+    "end_position": [
+      250,
+      250
+    ],
+    "duration": 3.005781888961792,
+    "distance_traveled": 50.0,
+    "straight_line_distance": 50.0,
+    "path_efficiency": 100.0,
+    "carbon_emitted": 6.0,
+    "cost_incurred": 25.300578188896225,
+    "average_velocity": 16.634606850089906,
+    "waypoint_count": 2,
+    "completed": true
+  },
+  {
+    "journey_id": "J_3_18",
+    "start_node": "Node1",
+    "end_node": "Node3",
+    "start_time": 1762005031.9220161,
+    "start_position": [
+      250,
+      300
+    ],
+    "start_distance": 1723.0522170670713,
+    "start_carbon": 206.76626604804864,
+    "start_cost": 892.9226072613342,
+    "waypoints": [
+      {
+        "timestamp": 1762005031.9220161,
+        "progress": 50,
+        "position": [
+          250,
+          300
+        ],
+        "current_node": null
+      },
+      {
+        "timestamp": 1762005034.9369853,
+        "progress": 100,
+        "position": [
+          250,
+          350
+        ],
+        "current_node": null
+      }
+    ],
+    "task_id": null,
+    "end_time": 1762005034.9369853,
+    "end_position": [
+      250,
+      350
+    ],
+    "duration": 3.0149691104888916,
+    "distance_traveled": 50.0,
+    "straight_line_distance": 50.0,
+    "path_efficiency": 100.0,
+    "carbon_emitted": 6.0,
+    "cost_incurred": 25.301496911048844,
+    "average_velocity": 16.583917833868707,
+    "waypoint_count": 2,
+    "completed": true
+  }
+]

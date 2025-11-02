@@ -164,7 +164,7 @@ class VehicleRoutingSystem:
                     
                     # Assign weights based on distance
                     carbon_emission = random.uniform(0.1, 2.0) * distance
-                    cost = random.uniform(0.5, 3.0) * distance
+                    cost = random.uniform(0.1, 5.0) * distance
                     
                     # Store edge weights (use sorted tuple as key for bidirectional edges)
                     edge_key = tuple(sorted([node, connected_node]))

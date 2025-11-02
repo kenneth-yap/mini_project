@@ -1,0 +1,1002 @@
+[
+  {
+    "task_id": "3776dda8",
+    "destination": "Node7",
+    "evaluation_timestamp": 1762004717.5974684,
+    "total_proposals": 3,
+    "available_proposals": 3,
+    "busy_vehicles": [],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 4.5175395145262565,
+        "current_node": "Node1"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 4.969039949999533,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 3.1622776601683795,
+        "current_node": "Node3"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 3,
+    "selected_estimated_time": 3.1622776601683795,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "bb7d19d7",
+    "destination": "Node6",
+    "evaluation_timestamp": 1762004728.8650212,
+    "total_proposals": 3,
+    "available_proposals": 3,
+    "busy_vehicles": [],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 4.5175395145262565,
+        "current_node": "Node1"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 5.735864066853755,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 7.63441361516796,
+        "current_node": "Node7"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 1,
+    "selected_estimated_time": 4.5175395145262565,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "242333b7",
+    "destination": "Node3",
+    "evaluation_timestamp": 1762004739.8690662,
+    "total_proposals": 3,
+    "available_proposals": 2,
+    "busy_vehicles": [
+      1
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node1"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 4.444444444444445,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 3.1622776601683795,
+        "current_node": "Node7"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 3,
+    "selected_estimated_time": 3.1622776601683795,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "82e74ab6",
+    "destination": "Node4",
+    "evaluation_timestamp": 1762004750.9674375,
+    "total_proposals": 3,
+    "available_proposals": 3,
+    "busy_vehicles": [],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 3.1943828249996997,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 2.4845199749997664,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 6.23606797749979,
+        "current_node": "Node3"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 2,
+    "selected_estimated_time": 2.4845199749997664,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "de5a5031",
+    "destination": "Node3",
+    "evaluation_timestamp": 1762004762.2831645,
+    "total_proposals": 3,
+    "available_proposals": 3,
+    "busy_vehicles": [],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 4.5175395145262565,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 4.706742197221988,
+        "current_node": "Node4"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 0.0,
+        "current_node": "Node3"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 3,
+    "selected_estimated_time": 0.0,
+    "winner_already_at_destination": true
+  },
+  {
+    "task_id": "9c64f6f8",
+    "destination": "Node5",
+    "evaluation_timestamp": 1762004773.2625825,
+    "total_proposals": 3,
+    "available_proposals": 3,
+    "busy_vehicles": [],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 7.711922339525956,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 4.969039949999533,
+        "current_node": "Node4"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 4.23606797749979,
+        "current_node": "Node3"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 3,
+    "selected_estimated_time": 4.23606797749979,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "3c82d989",
+    "destination": "Node2",
+    "evaluation_timestamp": 1762004784.3436162,
+    "total_proposals": 3,
+    "available_proposals": 2,
+    "busy_vehicles": [
+      3
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 6.388765649999399,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 2.4845199749997664,
+        "current_node": "Node4"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node1"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 2,
+    "selected_estimated_time": 2.4845199749997664,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "be1edc42",
+    "destination": "Node6",
+    "evaluation_timestamp": 1762004796.3300495,
+    "total_proposals": 3,
+    "available_proposals": 3,
+    "busy_vehicles": [],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 0.0,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 5.398345637668169,
+        "current_node": "Node5"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 5.735864066853755,
+        "current_node": "Node2"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 1,
+    "selected_estimated_time": 0.0,
+    "winner_already_at_destination": true
+  },
+  {
+    "task_id": "257cbaf0",
+    "destination": "Node5",
+    "evaluation_timestamp": 1762004806.4434967,
+    "total_proposals": 3,
+    "available_proposals": 3,
+    "busy_vehicles": [],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 7.711922339525956,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 2.4845199749997664,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 0.0,
+        "current_node": "Node5"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 3,
+    "selected_estimated_time": 0.0,
+    "winner_already_at_destination": true
+  },
+  {
+    "task_id": "96456ba9",
+    "destination": "Node5",
+    "evaluation_timestamp": 1762004817.6752253,
+    "total_proposals": 3,
+    "available_proposals": 3,
+    "busy_vehicles": [],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 7.711922339525956,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 2.4845199749997664,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 0.0,
+        "current_node": "Node5"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 3,
+    "selected_estimated_time": 0.0,
+    "winner_already_at_destination": true
+  },
+  {
+    "task_id": "e5f45b88",
+    "destination": "Node5",
+    "evaluation_timestamp": 1762004828.841369,
+    "total_proposals": 3,
+    "available_proposals": 3,
+    "busy_vehicles": [],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 7.711922339525956,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 2.4845199749997664,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 0.0,
+        "current_node": "Node5"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 3,
+    "selected_estimated_time": 0.0,
+    "winner_already_at_destination": true
+  },
+  {
+    "task_id": "e0f60f8c",
+    "destination": "Node3",
+    "evaluation_timestamp": 1762004839.9092264,
+    "total_proposals": 3,
+    "available_proposals": 3,
+    "busy_vehicles": [],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 4.5175395145262565,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 4.444444444444445,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 4.23606797749979,
+        "current_node": "Node5"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 3,
+    "selected_estimated_time": 4.23606797749979,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "59920811",
+    "destination": "Node8",
+    "evaluation_timestamp": 1762004851.093772,
+    "total_proposals": 3,
+    "available_proposals": 2,
+    "busy_vehicles": [
+      3
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 8.40907073910382,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 1.5713484026367723,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node1"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 2,
+    "selected_estimated_time": 1.5713484026367723,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "5a15be17",
+    "destination": "Node5",
+    "evaluation_timestamp": 1762004862.1770911,
+    "total_proposals": 3,
+    "available_proposals": 3,
+    "busy_vehicles": [],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 7.711922339525956,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 4.055868377636538,
+        "current_node": "Node8"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 4.23606797749979,
+        "current_node": "Node3"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 2,
+    "selected_estimated_time": 4.055868377636538,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "cbe93b24",
+    "destination": "Node8",
+    "evaluation_timestamp": 1762004873.4144835,
+    "total_proposals": 3,
+    "available_proposals": 2,
+    "busy_vehicles": [
+      2
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 8.40907073910382,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 5.414213562373095,
+        "current_node": "Node3"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 3,
+    "selected_estimated_time": 5.414213562373095,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "85a9e745",
+    "destination": "Node6",
+    "evaluation_timestamp": 1762004884.3072987,
+    "total_proposals": 3,
+    "available_proposals": 2,
+    "busy_vehicles": [
+      3
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 0.0,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 9.511803664262832,
+        "current_node": "Node5"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node1"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 1,
+    "selected_estimated_time": 0.0,
+    "winner_already_at_destination": true
+  },
+  {
+    "task_id": "1d67dba5",
+    "destination": "Node3",
+    "evaluation_timestamp": 1762004895.3590252,
+    "total_proposals": 3,
+    "available_proposals": 2,
+    "busy_vehicles": [
+      3
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 4.5175395145262565,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 5.998161819631299,
+        "current_node": "Node5"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node2"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 1,
+    "selected_estimated_time": 4.5175395145262565,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "1062b918",
+    "destination": "Node3",
+    "evaluation_timestamp": 1762004906.4608116,
+    "total_proposals": 3,
+    "available_proposals": 2,
+    "busy_vehicles": [
+      1
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 5.998161819631299,
+        "current_node": "Node5"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 5.414213562373095,
+        "current_node": "Node8"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 3,
+    "selected_estimated_time": 5.414213562373095,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "3f30f493",
+    "destination": "Node6",
+    "evaluation_timestamp": 1762004917.5274978,
+    "total_proposals": 3,
+    "available_proposals": 2,
+    "busy_vehicles": [
+      3
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 4.5175395145262565,
+        "current_node": "Node3"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 9.511803664262832,
+        "current_node": "Node5"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node8"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 1,
+    "selected_estimated_time": 4.5175395145262565,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "cab18a97",
+    "destination": "Node9",
+    "evaluation_timestamp": 1762004928.6411605,
+    "total_proposals": 3,
+    "available_proposals": 1,
+    "busy_vehicles": [
+      1,
+      3
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node3"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 4.055868377636538,
+        "current_node": "Node5"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node8"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 2,
+    "selected_estimated_time": 4.055868377636538,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "c0df2a80",
+    "destination": "Node5",
+    "evaluation_timestamp": 1762004939.821532,
+    "total_proposals": 3,
+    "available_proposals": 1,
+    "busy_vehicles": [
+      2,
+      3
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 7.711922339525956,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node2"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 1,
+    "selected_estimated_time": 7.711922339525956,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "e3c93d6a",
+    "destination": "Node5",
+    "evaluation_timestamp": 1762004950.915571,
+    "total_proposals": 3,
+    "available_proposals": 1,
+    "busy_vehicles": [
+      1,
+      3
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node6"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 4.055868377636538,
+        "current_node": "Node9"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node1"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 2,
+    "selected_estimated_time": 4.055868377636538,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "df0ba086",
+    "destination": "Node8",
+    "evaluation_timestamp": 1762004962.0305305,
+    "total_proposals": 3,
+    "available_proposals": 1,
+    "busy_vehicles": [
+      1,
+      2
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node1"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 5.414213562373095,
+        "current_node": "Node3"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 3,
+    "selected_estimated_time": 5.414213562373095,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "7a2d3a80",
+    "destination": "Node3",
+    "evaluation_timestamp": 1762004973.0773282,
+    "total_proposals": 3,
+    "available_proposals": 2,
+    "busy_vehicles": [
+      3
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 6.0515256821425565,
+        "current_node": "Node5"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 5.998161819631299,
+        "current_node": "Node5"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node1"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 2,
+    "selected_estimated_time": 5.998161819631299,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "4691c3c4",
+    "destination": "Node2",
+    "evaluation_timestamp": 1762004984.1781116,
+    "total_proposals": 3,
+    "available_proposals": 1,
+    "busy_vehicles": [
+      2,
+      3
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 3.1943828249996997,
+        "current_node": "Node5"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node7"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node2"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 1,
+    "selected_estimated_time": 3.1943828249996997,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "a1bb4d24",
+    "destination": "Node7",
+    "evaluation_timestamp": 1762004995.3271468,
+    "total_proposals": 3,
+    "available_proposals": 3,
+    "busy_vehicles": [],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 6.388765649999399,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 3.513641844631533,
+        "current_node": "Node3"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 7.886349517372675,
+        "current_node": "Node8"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 2,
+    "selected_estimated_time": 3.513641844631533,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "2e9a1af8",
+    "destination": "Node5",
+    "evaluation_timestamp": 1762005006.3741343,
+    "total_proposals": 3,
+    "available_proposals": 3,
+    "busy_vehicles": [],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 3.1943828249996997,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 2.4845199749997664,
+        "current_node": "Node7"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 5.650281539872886,
+        "current_node": "Node8"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 2,
+    "selected_estimated_time": 2.4845199749997664,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "acff1e38",
+    "destination": "Node3",
+    "evaluation_timestamp": 1762005017.437478,
+    "total_proposals": 3,
+    "available_proposals": 2,
+    "busy_vehicles": [
+      2
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 5.714285714285714,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node7"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": false,
+        "estimated_time": 5.414213562373095,
+        "current_node": "Node8"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 3,
+    "selected_estimated_time": 5.414213562373095,
+    "winner_already_at_destination": false
+  },
+  {
+    "task_id": "edd7aacf",
+    "destination": "Node2",
+    "evaluation_timestamp": 1762005028.7695937,
+    "total_proposals": 3,
+    "available_proposals": 1,
+    "busy_vehicles": [
+      2,
+      3
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 0.0,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node7"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node2"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 1,
+    "selected_estimated_time": 0.0,
+    "winner_already_at_destination": true
+  },
+  {
+    "task_id": "92610167",
+    "destination": "Node4",
+    "evaluation_timestamp": 1762005039.9357746,
+    "total_proposals": 3,
+    "available_proposals": 2,
+    "busy_vehicles": [
+      3
+    ],
+    "proposal_details": [
+      {
+        "vehicle_id": 1,
+        "is_busy": false,
+        "estimated_time": 3.1943828249996997,
+        "current_node": "Node2"
+      },
+      {
+        "vehicle_id": 2,
+        "is_busy": false,
+        "estimated_time": 4.969039949999533,
+        "current_node": "Node5"
+      },
+      {
+        "vehicle_id": 3,
+        "is_busy": true,
+        "estimated_time": null,
+        "current_node": "Node1"
+      }
+    ],
+    "outcome": "assigned",
+    "selected_vehicle": 1,
+    "selected_estimated_time": 3.1943828249996997,
+    "winner_already_at_destination": false
+  }
+]

@@ -12,7 +12,7 @@ from collections import defaultdict
 vehicle_number = int(sys.argv[1]) if len(sys.argv) > 1 else 1
 
 # === Config ===
-DT_BASE_PORT = 5000  # Digital Twin base port (vehicle1 → 5000, vehicle2 → 5001, etc.)
+DT_BASE_PORT = 4000  # Digital Twin base port (vehicle1 → 5000, vehicle2 → 5001, etc.)
 
 # === ROUTING PRIORITY SETTING ===
 # Change this value to set routing priority:

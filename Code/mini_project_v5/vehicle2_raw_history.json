@@ -1,602 +1,1038 @@
 [
   {
-    "timestamp": 1760539064.9505143,
-    "raw_data": {
-      "progress": 64,
-      "next_location": "Node8",
-      "previous_location": "Node2",
-      "x_coordinate": 218,
-      "y_coordinate": 118
-    }
-  },
-  {
-    "timestamp": 1760539067.9631348,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node8",
-      "previous_location": "Node2",
-      "x_coordinate": 200,
-      "y_coordinate": 100
-    }
-  },
-  {
-    "timestamp": 1760539113.459364,
-    "raw_data": {
-      "progress": 64,
-      "next_location": "Node2",
-      "previous_location": "Node8",
-      "x_coordinate": 232,
-      "y_coordinate": 132
-    }
-  },
-  {
-    "timestamp": 1760539116.465064,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node2",
-      "previous_location": "Node8",
-      "x_coordinate": 250,
-      "y_coordinate": 150
-    }
-  },
-  {
-    "timestamp": 1760539116.477116,
+    "timestamp": 1762004751.3427458,
+    "datetime": "2025-11-01T13:45:51.342746",
     "raw_data": {
       "progress": 40,
       "next_location": "Node4",
       "previous_location": "Node2",
       "x_coordinate": 290,
       "y_coordinate": 170
+    },
+    "metrics": {
+      "total_distance": 0.0,
+      "total_carbon": 0.0,
+      "total_cost": 0.0,
+      "total_active_time": 0.0,
+      "current_velocity": 0.0,
+      "average_velocity": 0,
+      "completed_journeys": 0,
+      "nodes_visited": 0,
+      "unique_edges_used": 0,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node4",
+      "mission_elapsed_time": 0.01382136344909668
     }
   },
   {
-    "timestamp": 1760539119.493186,
+    "timestamp": 1762004754.351188,
+    "datetime": "2025-11-01T13:45:54.351188",
     "raw_data": {
       "progress": 80,
       "next_location": "Node4",
       "previous_location": "Node2",
       "x_coordinate": 330,
       "y_coordinate": 190
+    },
+    "metrics": {
+      "total_distance": 44.721359549995796,
+      "total_carbon": 5.366563145999495,
+      "total_cost": 22.661523991344637,
+      "total_active_time": 3.0084421634674072,
+      "current_velocity": 14.865288119234371,
+      "average_velocity": 14.865288119234371,
+      "completed_journeys": 0,
+      "nodes_visited": 0,
+      "unique_edges_used": 0,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node4",
+      "mission_elapsed_time": 3.012796401977539
     }
   },
   {
-    "timestamp": 1760539122.4981866,
+    "timestamp": 1762004757.3670363,
+    "datetime": "2025-11-01T13:45:57.367036",
     "raw_data": {
       "progress": 100,
       "next_location": "Node4",
       "previous_location": "Node2",
       "x_coordinate": 350,
       "y_coordinate": 200
+    },
+    "metrics": {
+      "total_distance": 67.0820393249937,
+      "total_carbon": 8.049844718999243,
+      "total_cost": 34.143448718664445,
+      "total_active_time": 6.024290561676025,
+      "current_velocity": 7.414391183681482,
+      "average_velocity": 11.135259602473544,
+      "completed_journeys": 0,
+      "nodes_visited": 0,
+      "unique_edges_used": 0,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node4",
+      "mission_elapsed_time": 6.028640985488892
     }
   },
   {
-    "timestamp": 1760539146.7542465,
+    "timestamp": 1762004784.723036,
+    "datetime": "2025-11-01T13:46:24.723036",
     "raw_data": {
       "progress": 40,
       "next_location": "Node2",
       "previous_location": "Node4",
       "x_coordinate": 310,
       "y_coordinate": 180
+    },
+    "metrics": {
+      "total_distance": 111.8033988749895,
+      "total_carbon": 13.416407864998739,
+      "total_cost": 59.23972846447991,
+      "total_active_time": 33.380290269851685,
+      "current_velocity": 1.6347916371935878,
+      "average_velocity": 3.3493836623694007,
+      "completed_journeys": 1,
+      "nodes_visited": 1,
+      "unique_edges_used": 1,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node2",
+      "mission_elapsed_time": 0.005195140838623047
     }
   },
   {
-    "timestamp": 1760539149.7722082,
+    "timestamp": 1762004787.7448394,
+    "datetime": "2025-11-01T13:46:27.744839",
     "raw_data": {
       "progress": 80,
       "next_location": "Node2",
       "previous_location": "Node4",
       "x_coordinate": 270,
       "y_coordinate": 160
+    },
+    "metrics": {
+      "total_distance": 156.5247584249853,
+      "total_carbon": 18.782971010998235,
+      "total_cost": 81.9025885773837,
+      "total_active_time": 36.40209364891052,
+      "current_velocity": 14.799559713221507,
+      "average_velocity": 4.2998834060103555,
+      "completed_journeys": 1,
+      "nodes_visited": 1,
+      "unique_edges_used": 1,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node2",
+      "mission_elapsed_time": 3.0282020568847656
     }
   },
   {
-    "timestamp": 1760539152.7817206,
+    "timestamp": 1762004790.758385,
+    "datetime": "2025-11-01T13:46:30.758385",
     "raw_data": {
       "progress": 100,
       "next_location": "Node2",
       "previous_location": "Node4",
       "x_coordinate": 250,
       "y_coordinate": 150
+    },
+    "metrics": {
+      "total_distance": 178.88543819998318,
+      "total_carbon": 21.46625258399798,
+      "total_cost": 93.38428301619795,
+      "total_active_time": 39.4156391620636,
+      "current_velocity": 7.4200570979934835,
+      "average_velocity": 4.538438092161022,
+      "completed_journeys": 1,
+      "nodes_visited": 1,
+      "unique_edges_used": 1,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node2",
+      "mission_elapsed_time": 6.040526390075684
     }
   },
   {
-    "timestamp": 1760539246.0024483,
-    "raw_data": {
-      "progress": 40,
-      "next_location": "Node5",
-      "previous_location": "Node2",
-      "x_coordinate": 210,
-      "y_coordinate": 170
-    }
-  },
-  {
-    "timestamp": 1760539249.0248013,
-    "raw_data": {
-      "progress": 80,
-      "next_location": "Node5",
-      "previous_location": "Node2",
-      "x_coordinate": 170,
-      "y_coordinate": 190
-    }
-  },
-  {
-    "timestamp": 1760539252.0437999,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node5",
-      "previous_location": "Node2",
-      "x_coordinate": 150,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539328.1618073,
-    "raw_data": {
-      "progress": 45,
-      "next_location": "Node11",
-      "previous_location": "Node5",
-      "x_coordinate": 105,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539331.1708393,
-    "raw_data": {
-      "progress": 90,
-      "next_location": "Node11",
-      "previous_location": "Node5",
-      "x_coordinate": 60,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539334.1916125,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node11",
-      "previous_location": "Node5",
-      "x_coordinate": 50,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539404.0229099,
-    "raw_data": {
-      "progress": 45,
-      "next_location": "Node5",
-      "previous_location": "Node11",
-      "x_coordinate": 95,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539407.0364628,
-    "raw_data": {
-      "progress": 90,
-      "next_location": "Node5",
-      "previous_location": "Node11",
-      "x_coordinate": 140,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539410.052475,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node5",
-      "previous_location": "Node11",
-      "x_coordinate": 150,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539410.062177,
-    "raw_data": {
-      "progress": 40,
-      "next_location": "Node7",
-      "previous_location": "Node5",
-      "x_coordinate": 130,
-      "y_coordinate": 240
-    }
-  },
-  {
-    "timestamp": 1760539413.085441,
-    "raw_data": {
-      "progress": 80,
-      "next_location": "Node7",
-      "previous_location": "Node5",
-      "x_coordinate": 110,
-      "y_coordinate": 280
-    }
-  },
-  {
-    "timestamp": 1760539416.0997732,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node7",
-      "previous_location": "Node5",
-      "x_coordinate": 100,
-      "y_coordinate": 300
-    }
-  },
-  {
-    "timestamp": 1760539460.210399,
-    "raw_data": {
-      "progress": 40,
-      "next_location": "Node5",
-      "previous_location": "Node7",
-      "x_coordinate": 120,
-      "y_coordinate": 260
-    }
-  },
-  {
-    "timestamp": 1760539463.2165866,
-    "raw_data": {
-      "progress": 80,
-      "next_location": "Node5",
-      "previous_location": "Node7",
-      "x_coordinate": 140,
-      "y_coordinate": 220
-    }
-  },
-  {
-    "timestamp": 1760539466.2300568,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node5",
-      "previous_location": "Node7",
-      "x_coordinate": 150,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539468.4072695,
-    "raw_data": {
-      "progress": 40,
-      "next_location": "Node7",
-      "previous_location": "Node5",
-      "x_coordinate": 130,
-      "y_coordinate": 240
-    }
-  },
-  {
-    "timestamp": 1760539471.4196572,
-    "raw_data": {
-      "progress": 80,
-      "next_location": "Node7",
-      "previous_location": "Node5",
-      "x_coordinate": 110,
-      "y_coordinate": 280
-    }
-  },
-  {
-    "timestamp": 1760539474.4247265,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node7",
-      "previous_location": "Node5",
-      "x_coordinate": 100,
-      "y_coordinate": 300
-    }
-  },
-  {
-    "timestamp": 1760539488.0685923,
-    "raw_data": {
-      "progress": 40,
-      "next_location": "Node5",
-      "previous_location": "Node7",
-      "x_coordinate": 120,
-      "y_coordinate": 260
-    }
-  },
-  {
-    "timestamp": 1760539491.0795372,
-    "raw_data": {
-      "progress": 80,
-      "next_location": "Node5",
-      "previous_location": "Node7",
-      "x_coordinate": 140,
-      "y_coordinate": 220
-    }
-  },
-  {
-    "timestamp": 1760539494.0847795,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node5",
-      "previous_location": "Node7",
-      "x_coordinate": 150,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539494.0922394,
-    "raw_data": {
-      "progress": 45,
-      "next_location": "Node11",
-      "previous_location": "Node5",
-      "x_coordinate": 105,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539497.0985441,
-    "raw_data": {
-      "progress": 90,
-      "next_location": "Node11",
-      "previous_location": "Node5",
-      "x_coordinate": 60,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539500.1055703,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node11",
-      "previous_location": "Node5",
-      "x_coordinate": 50,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539510.6461542,
-    "raw_data": {
-      "progress": 45,
-      "next_location": "Node5",
-      "previous_location": "Node11",
-      "x_coordinate": 95,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539513.6560774,
-    "raw_data": {
-      "progress": 90,
-      "next_location": "Node5",
-      "previous_location": "Node11",
-      "x_coordinate": 140,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539516.671497,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node5",
-      "previous_location": "Node11",
-      "x_coordinate": 150,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539540.6547453,
-    "raw_data": {
-      "progress": 40,
-      "next_location": "Node2",
-      "previous_location": "Node5",
-      "x_coordinate": 190,
-      "y_coordinate": 180
-    }
-  },
-  {
-    "timestamp": 1760539543.6590064,
-    "raw_data": {
-      "progress": 80,
-      "next_location": "Node2",
-      "previous_location": "Node5",
-      "x_coordinate": 230,
-      "y_coordinate": 160
-    }
-  },
-  {
-    "timestamp": 1760539546.673612,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node2",
-      "previous_location": "Node5",
-      "x_coordinate": 250,
-      "y_coordinate": 150
-    }
-  },
-  {
-    "timestamp": 1760539550.6821656,
-    "raw_data": {
-      "progress": 40,
-      "next_location": "Node4",
-      "previous_location": "Node2",
-      "x_coordinate": 290,
-      "y_coordinate": 170
-    }
-  },
-  {
-    "timestamp": 1760539553.7000415,
-    "raw_data": {
-      "progress": 80,
-      "next_location": "Node4",
-      "previous_location": "Node2",
-      "x_coordinate": 330,
-      "y_coordinate": 190
-    }
-  },
-  {
-    "timestamp": 1760539556.7116325,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node4",
-      "previous_location": "Node2",
-      "x_coordinate": 350,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539595.180192,
-    "raw_data": {
-      "progress": 40,
-      "next_location": "Node2",
-      "previous_location": "Node4",
-      "x_coordinate": 310,
-      "y_coordinate": 180
-    }
-  },
-  {
-    "timestamp": 1760539598.1935964,
-    "raw_data": {
-      "progress": 80,
-      "next_location": "Node2",
-      "previous_location": "Node4",
-      "x_coordinate": 270,
-      "y_coordinate": 160
-    }
-  },
-  {
-    "timestamp": 1760539601.211901,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node2",
-      "previous_location": "Node4",
-      "x_coordinate": 250,
-      "y_coordinate": 150
-    }
-  },
-  {
-    "timestamp": 1760539601.226575,
-    "raw_data": {
-      "progress": 40,
-      "next_location": "Node5",
-      "previous_location": "Node2",
-      "x_coordinate": 210,
-      "y_coordinate": 170
-    }
-  },
-  {
-    "timestamp": 1760539604.2362812,
-    "raw_data": {
-      "progress": 80,
-      "next_location": "Node5",
-      "previous_location": "Node2",
-      "x_coordinate": 170,
-      "y_coordinate": 190
-    }
-  },
-  {
-    "timestamp": 1760539607.2461338,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node5",
-      "previous_location": "Node2",
-      "x_coordinate": 150,
-      "y_coordinate": 200
-    }
-  },
-  {
-    "timestamp": 1760539644.8734226,
-    "raw_data": {
-      "progress": 40,
-      "next_location": "Node2",
-      "previous_location": "Node5",
-      "x_coordinate": 190,
-      "y_coordinate": 180
-    }
-  },
-  {
-    "timestamp": 1760539647.8845503,
-    "raw_data": {
-      "progress": 80,
-      "next_location": "Node2",
-      "previous_location": "Node5",
-      "x_coordinate": 230,
-      "y_coordinate": 160
-    }
-  },
-  {
-    "timestamp": 1760539650.899284,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node2",
-      "previous_location": "Node5",
-      "x_coordinate": 250,
-      "y_coordinate": 150
-    }
-  },
-  {
-    "timestamp": 1760539650.910281,
+    "timestamp": 1762004851.502107,
+    "datetime": "2025-11-01T13:47:31.502107",
     "raw_data": {
       "progress": 64,
       "next_location": "Node8",
       "previous_location": "Node2",
       "x_coordinate": 218,
       "y_coordinate": 118
+    },
+    "metrics": {
+      "total_distance": 224.14027219592222,
+      "total_carbon": 26.896832663510665,
+      "total_cost": 122.08607221036499,
+      "total_active_time": 100.1593611240387,
+      "current_velocity": 0.7450125302540412,
+      "average_velocity": 2.2378364805896065,
+      "completed_journeys": 2,
+      "nodes_visited": 2,
+      "unique_edges_used": 2,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node8",
+      "mission_elapsed_time": 0.026502609252929688
     }
   },
   {
-    "timestamp": 1760539653.9187973,
+    "timestamp": 1762004854.5074477,
+    "datetime": "2025-11-01T13:47:34.507448",
     "raw_data": {
       "progress": 100,
       "next_location": "Node8",
       "previous_location": "Node2",
       "x_coordinate": 200,
       "y_coordinate": 100
+    },
+    "metrics": {
+      "total_distance": 249.59611631863794,
+      "total_carbon": 29.95153395823655,
+      "total_cost": 135.1145283531819,
+      "total_active_time": 103.16470193862915,
+      "current_velocity": 8.470202114559392,
+      "average_velocity": 2.419394537359476,
+      "completed_journeys": 2,
+      "nodes_visited": 2,
+      "unique_edges_used": 2,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node8",
+      "mission_elapsed_time": 3.031870126724243
     }
   },
   {
-    "timestamp": 1760539660.9206576,
-    "raw_data": {
-      "progress": 64,
-      "next_location": "Node10",
-      "previous_location": "Node8",
-      "x_coordinate": 232,
-      "y_coordinate": 68
-    }
-  },
-  {
-    "timestamp": 1760539663.9302309,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node10",
-      "previous_location": "Node8",
-      "x_coordinate": 250,
-      "y_coordinate": 50
-    }
-  },
-  {
-    "timestamp": 1760539751.9330773,
-    "raw_data": {
-      "progress": 64,
-      "next_location": "Node8",
-      "previous_location": "Node10",
-      "x_coordinate": 218,
-      "y_coordinate": 82
-    }
-  },
-  {
-    "timestamp": 1760539754.9389317,
-    "raw_data": {
-      "progress": 100,
-      "next_location": "Node8",
-      "previous_location": "Node10",
-      "x_coordinate": 200,
-      "y_coordinate": 100
-    }
-  },
-  {
-    "timestamp": 1760539781.938432,
+    "timestamp": 1762004862.5726953,
+    "datetime": "2025-11-01T13:47:42.572695",
     "raw_data": {
       "progress": 64,
       "next_location": "Node2",
       "previous_location": "Node8",
       "x_coordinate": 232,
       "y_coordinate": 132
+    },
+    "metrics": {
+      "total_distance": 294.850950314577,
+      "total_carbon": 35.38211403774923,
+      "total_cost": 158.54847010472199,
+      "total_active_time": 111.22994947433472,
+      "current_velocity": 5.611090520854057,
+      "average_velocity": 2.65082337722909,
+      "completed_journeys": 3,
+      "nodes_visited": 3,
+      "unique_edges_used": 3,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node2",
+      "mission_elapsed_time": 0.004208803176879883
     }
   },
   {
-    "timestamp": 1760539784.9500823,
+    "timestamp": 1762004865.5770352,
+    "datetime": "2025-11-01T13:47:45.577035",
     "raw_data": {
       "progress": 100,
       "next_location": "Node2",
       "previous_location": "Node8",
       "x_coordinate": 250,
       "y_coordinate": 150
+    },
+    "metrics": {
+      "total_distance": 320.3067944372927,
+      "total_carbon": 38.43681533247512,
+      "total_cost": 171.57682615941937,
+      "total_active_time": 114.2342894077301,
+      "current_velocity": 8.473023921080237,
+      "average_velocity": 2.8039461364708056,
+      "completed_journeys": 3,
+      "nodes_visited": 3,
+      "unique_edges_used": 3,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node2",
+      "mission_elapsed_time": 3.0085325241088867
+    }
+  },
+  {
+    "timestamp": 1762004865.9591475,
+    "datetime": "2025-11-01T13:47:45.959147",
+    "raw_data": {
+      "progress": 40,
+      "next_location": "Node5",
+      "previous_location": "Node2",
+      "x_coordinate": 210,
+      "y_coordinate": 170
+    },
+    "metrics": {
+      "total_distance": 365.0281539872885,
+      "total_carbon": 43.80337847847461,
+      "total_cost": 193.97571716088058,
+      "total_active_time": 114.61640167236328,
+      "current_velocity": 117.03722620085891,
+      "average_velocity": 3.184781136566647,
+      "completed_journeys": 4,
+      "nodes_visited": 3,
+      "unique_edges_used": 4,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node5",
+      "mission_elapsed_time": 0.0041882991790771484
+    }
+  },
+  {
+    "timestamp": 1762004868.9621322,
+    "datetime": "2025-11-01T13:47:48.962132",
+    "raw_data": {
+      "progress": 80,
+      "next_location": "Node5",
+      "previous_location": "Node2",
+      "x_coordinate": 170,
+      "y_coordinate": 190
+    },
+    "metrics": {
+      "total_distance": 409.74951353728426,
+      "total_carbon": 49.169941624474106,
+      "total_cost": 216.63669541209765,
+      "total_active_time": 117.61938643455505,
+      "current_velocity": 14.892303188829787,
+      "average_velocity": 3.4836902823436695,
+      "completed_journeys": 4,
+      "nodes_visited": 3,
+      "unique_edges_used": 4,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node5",
+      "mission_elapsed_time": 3.007056951522827
+    }
+  },
+  {
+    "timestamp": 1762004871.9819524,
+    "datetime": "2025-11-01T13:47:51.981952",
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node5",
+      "previous_location": "Node2",
+      "x_coordinate": 150,
+      "y_coordinate": 200
+    },
+    "metrics": {
+      "total_distance": 432.11019331228215,
+      "total_carbon": 51.85322319747385,
+      "total_cost": 228.11901732092838,
+      "total_active_time": 120.63920664787292,
+      "current_velocity": 7.4046394140895755,
+      "average_velocity": 3.581838817736464,
+      "completed_journeys": 4,
+      "nodes_visited": 3,
+      "unique_edges_used": 4,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node5",
+      "mission_elapsed_time": 6.027025461196899
+    }
+  },
+  {
+    "timestamp": 1762004930.1804729,
+    "datetime": "2025-11-01T13:48:50.180473",
+    "raw_data": {
+      "progress": 40,
+      "next_location": "Node2",
+      "previous_location": "Node5",
+      "x_coordinate": 190,
+      "y_coordinate": 180
+    },
+    "metrics": {
+      "total_distance": 476.83155286227793,
+      "total_carbon": 57.219786343473345,
+      "total_cost": 256.29954913812446,
+      "total_active_time": 178.83772706985474,
+      "current_velocity": 0.7684277748941597,
+      "average_velocity": 2.6662805475939964,
+      "completed_journeys": 5,
+      "nodes_visited": 4,
+      "unique_edges_used": 5,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node2",
+      "mission_elapsed_time": 0.09197139739990234
+    }
+  },
+  {
+    "timestamp": 1762004933.193981,
+    "datetime": "2025-11-01T13:48:53.193981",
+    "raw_data": {
+      "progress": 80,
+      "next_location": "Node2",
+      "previous_location": "Node5",
+      "x_coordinate": 230,
+      "y_coordinate": 160
+    },
+    "metrics": {
+      "total_distance": 521.5529124122737,
+      "total_carbon": 62.58634948947284,
+      "total_cost": 278.961579721266,
+      "total_active_time": 181.8512351512909,
+      "current_velocity": 14.840298529640178,
+      "average_velocity": 2.868019631422181,
+      "completed_journeys": 5,
+      "nodes_visited": 4,
+      "unique_edges_used": 5,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node2",
+      "mission_elapsed_time": 3.1056532859802246
+    }
+  },
+  {
+    "timestamp": 1762004936.198263,
+    "datetime": "2025-11-01T13:48:56.198263",
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node2",
+      "previous_location": "Node5",
+      "x_coordinate": 250,
+      "y_coordinate": 150
+    },
+    "metrics": {
+      "total_distance": 543.9135921872717,
+      "total_carbon": 65.26963106247258,
+      "total_cost": 290.442347808533,
+      "total_active_time": 184.85551714897156,
+      "current_velocity": 7.442936379561096,
+      "average_velocity": 2.9423714291899765,
+      "completed_journeys": 5,
+      "nodes_visited": 4,
+      "unique_edges_used": 5,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node2",
+      "mission_elapsed_time": 6.110212326049805
+    }
+  },
+  {
+    "timestamp": 1762004936.5712347,
+    "datetime": "2025-11-01T13:48:56.571235",
+    "raw_data": {
+      "progress": 64,
+      "next_location": "Node9",
+      "previous_location": "Node2",
+      "x_coordinate": 282,
+      "y_coordinate": 118
+    },
+    "metrics": {
+      "total_distance": 589.1684261832107,
+      "total_carbon": 70.70021114198526,
+      "total_cost": 313.1070619838173,
+      "total_active_time": 185.22848892211914,
+      "current_velocity": 121.33581480985677,
+      "average_velocity": 3.180765710564812,
+      "completed_journeys": 6,
+      "nodes_visited": 4,
+      "unique_edges_used": 6,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node9",
+      "mission_elapsed_time": 0.0031609535217285156
+    }
+  },
+  {
+    "timestamp": 1762004939.5860066,
+    "datetime": "2025-11-01T13:48:59.586007",
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node9",
+      "previous_location": "Node2",
+      "x_coordinate": 300,
+      "y_coordinate": 100
+    },
+    "metrics": {
+      "total_distance": 614.6242703059264,
+      "total_carbon": 73.75491243671115,
+      "total_cost": 326.13646123900753,
+      "total_active_time": 188.24326086044312,
+      "current_velocity": 8.44370474566231,
+      "average_velocity": 3.2650532481031926,
+      "completed_journeys": 6,
+      "nodes_visited": 4,
+      "unique_edges_used": 6,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node9",
+      "mission_elapsed_time": 3.0235326290130615
+    }
+  },
+  {
+    "timestamp": 1762004951.2934139,
+    "datetime": "2025-11-01T13:49:11.293414",
+    "raw_data": {
+      "progress": 64,
+      "next_location": "Node2",
+      "previous_location": "Node9",
+      "x_coordinate": 268,
+      "y_coordinate": 132
+    },
+    "metrics": {
+      "total_distance": 659.8791043018655,
+      "total_carbon": 79.18549251622383,
+      "total_cost": 349.934618960587,
+      "total_active_time": 199.95066809654236,
+      "current_velocity": 3.865487300757582,
+      "average_velocity": 3.3002095496037827,
+      "completed_journeys": 7,
+      "nodes_visited": 5,
+      "unique_edges_used": 7,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node2",
+      "mission_elapsed_time": 0.0032613277435302734
+    }
+  },
+  {
+    "timestamp": 1762004954.308415,
+    "datetime": "2025-11-01T13:49:14.308415",
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node2",
+      "previous_location": "Node9",
+      "x_coordinate": 250,
+      "y_coordinate": 150
+    },
+    "metrics": {
+      "total_distance": 685.3349484245812,
+      "total_carbon": 82.24019381094972,
+      "total_cost": 362.9640411278027,
+      "total_active_time": 202.96566915512085,
+      "current_velocity": 8.443063079625452,
+      "average_velocity": 3.3766052716077777,
+      "completed_journeys": 7,
+      "nodes_visited": 5,
+      "unique_edges_used": 7,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node2",
+      "mission_elapsed_time": 3.018327474594116
+    }
+  },
+  {
+    "timestamp": 1762004954.6779578,
+    "datetime": "2025-11-01T13:49:14.677958",
+    "raw_data": {
+      "progress": 40,
+      "next_location": "Node5",
+      "previous_location": "Node2",
+      "x_coordinate": 210,
+      "y_coordinate": 170
+    },
+    "metrics": {
+      "total_distance": 730.056307974577,
+      "total_carbon": 87.60675695694921,
+      "total_cost": 385.3616751865149,
+      "total_active_time": 203.3352119922638,
+      "current_velocity": 121.01806625654321,
+      "average_velocity": 3.590407686015313,
+      "completed_journeys": 8,
+      "nodes_visited": 5,
+      "unique_edges_used": 8,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node5",
+      "mission_elapsed_time": 0.003767251968383789
+    }
+  },
+  {
+    "timestamp": 1762004957.6860948,
+    "datetime": "2025-11-01T13:49:17.686095",
+    "raw_data": {
+      "progress": 80,
+      "next_location": "Node5",
+      "previous_location": "Node2",
+      "x_coordinate": 170,
+      "y_coordinate": 190
+    },
+    "metrics": {
+      "total_distance": 774.7776675245727,
+      "total_carbon": 92.9733201029487,
+      "total_cost": 408.0231686602814,
+      "total_active_time": 206.34334897994995,
+      "current_velocity": 14.866796204116763,
+      "average_velocity": 3.754798356015132,
+      "completed_journeys": 8,
+      "nodes_visited": 5,
+      "unique_edges_used": 8,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node5",
+      "mission_elapsed_time": 3.0101397037506104
+    }
+  },
+  {
+    "timestamp": 1762004960.7033384,
+    "datetime": "2025-11-01T13:49:20.703338",
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node5",
+      "previous_location": "Node2",
+      "x_coordinate": 150,
+      "y_coordinate": 200
+    },
+    "metrics": {
+      "total_distance": 797.1383472995707,
+      "total_carbon": 95.65660167594845,
+      "total_cost": 419.50523291015367,
+      "total_active_time": 209.36059260368347,
+      "current_velocity": 7.410962641236413,
+      "average_velocity": 3.8074899262849424,
+      "completed_journeys": 8,
+      "nodes_visited": 5,
+      "unique_edges_used": 8,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node5",
+      "mission_elapsed_time": 6.028010129928589
+    }
+  },
+  {
+    "timestamp": 1762004973.4551938,
+    "datetime": "2025-11-01T13:49:33.455194",
+    "raw_data": {
+      "progress": 40,
+      "next_location": "Node7",
+      "previous_location": "Node5",
+      "x_coordinate": 130,
+      "y_coordinate": 240
+    },
+    "metrics": {
+      "total_distance": 841.8597068495665,
+      "total_carbon": 101.02316482194794,
+      "total_cost": 443.1410982224898,
+      "total_active_time": 222.11244797706604,
+      "current_velocity": 3.5070472680661346,
+      "average_velocity": 3.790240999624171,
+      "completed_journeys": 9,
+      "nodes_visited": 5,
+      "unique_edges_used": 8,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node7",
+      "mission_elapsed_time": 0.002235889434814453
+    }
+  },
+  {
+    "timestamp": 1762004976.4669998,
+    "datetime": "2025-11-01T13:49:36.467000",
+    "raw_data": {
+      "progress": 80,
+      "next_location": "Node7",
+      "previous_location": "Node5",
+      "x_coordinate": 110,
+      "y_coordinate": 280
+    },
+    "metrics": {
+      "total_distance": 886.5810663995622,
+      "total_carbon": 106.38972796794744,
+      "total_cost": 465.8029585986077,
+      "total_active_time": 225.124253988266,
+      "current_velocity": 14.848685268470561,
+      "average_velocity": 3.9381854717696165,
+      "completed_journeys": 9,
+      "nodes_visited": 5,
+      "unique_edges_used": 8,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node7",
+      "mission_elapsed_time": 3.01407790184021
+    }
+  },
+  {
+    "timestamp": 1762004979.521462,
+    "datetime": "2025-11-01T13:49:39.521462",
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node7",
+      "previous_location": "Node5",
+      "x_coordinate": 100,
+      "y_coordinate": 300
+    },
+    "metrics": {
+      "total_distance": 908.9417461745602,
+      "total_carbon": 109.07300954094718,
+      "total_cost": 477.2887447055509,
+      "total_active_time": 228.17871618270874,
+      "current_velocity": 7.320660185508482,
+      "average_velocity": 3.9834641958750723,
+      "completed_journeys": 9,
+      "nodes_visited": 5,
+      "unique_edges_used": 8,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node7",
+      "mission_elapsed_time": 6.068344831466675
+    }
+  },
+  {
+    "timestamp": 1762004979.907833,
+    "datetime": "2025-11-01T13:49:39.907833",
+    "raw_data": {
+      "progress": 28,
+      "next_location": "Node3",
+      "previous_location": "Node7",
+      "x_coordinate": 143,
+      "y_coordinate": 314
+    },
+    "metrics": {
+      "total_distance": 954.1634223929402,
+      "total_carbon": 114.4996106871528,
+      "total_cost": 499.9382199283121,
+      "total_active_time": 228.5650873184204,
+      "current_velocity": 117.04206665201512,
+      "average_velocity": 4.174580788288408,
+      "completed_journeys": 10,
+      "nodes_visited": 6,
+      "unique_edges_used": 9,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node3",
+      "mission_elapsed_time": 0.0022542476654052734
+    }
+  },
+  {
+    "timestamp": 1762004982.9167874,
+    "datetime": "2025-11-01T13:49:42.916787",
+    "raw_data": {
+      "progress": 56,
+      "next_location": "Node3",
+      "previous_location": "Node7",
+      "x_coordinate": 185,
+      "y_coordinate": 328
+    },
+    "metrics": {
+      "total_distance": 998.4353096352975,
+      "total_carbon": 119.81223715623567,
+      "total_cost": 522.3750589781483,
+      "total_active_time": 231.57404160499573,
+      "current_velocity": 14.713379807689257,
+      "average_velocity": 4.311516535771159,
+      "completed_journeys": 10,
+      "nodes_visited": 6,
+      "unique_edges_used": 9,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node3",
+      "mission_elapsed_time": 3.0117688179016113
+    }
+  },
+  {
+    "timestamp": 1762004985.929282,
+    "datetime": "2025-11-01T13:49:45.929282",
+    "raw_data": {
+      "progress": 84,
+      "next_location": "Node3",
+      "previous_location": "Node7",
+      "x_coordinate": 227,
+      "y_coordinate": 342
+    },
+    "metrics": {
+      "total_distance": 1042.7071968776547,
+      "total_carbon": 125.12486362531854,
+      "total_cost": 544.8122520557326,
+      "total_active_time": 234.58653616905212,
+      "current_velocity": 14.696088673681835,
+      "average_velocity": 4.444872301308203,
+      "completed_journeys": 10,
+      "nodes_visited": 6,
+      "unique_edges_used": 9,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node3",
+      "mission_elapsed_time": 6.023932218551636
+    }
+  },
+  {
+    "timestamp": 1762004988.9374673,
+    "datetime": "2025-11-01T13:49:48.937467",
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node3",
+      "previous_location": "Node7",
+      "x_coordinate": 250,
+      "y_coordinate": 350
+    },
+    "metrics": {
+      "total_distance": 1067.0587882014265,
+      "total_carbon": 128.04705458417115,
+      "total_cost": 557.2888662562843,
+      "total_active_time": 237.59472155570984,
+      "current_velocity": 8.095109906383797,
+      "average_velocity": 4.491087938379257,
+      "completed_journeys": 10,
+      "nodes_visited": 6,
+      "unique_edges_used": 9,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node3",
+      "mission_elapsed_time": 9.032081842422485
+    }
+  },
+  {
+    "timestamp": 1762004995.700126,
+    "datetime": "2025-11-01T13:49:55.700126",
+    "raw_data": {
+      "progress": 28,
+      "next_location": "Node7",
+      "previous_location": "Node3",
+      "x_coordinate": 207,
+      "y_coordinate": 336
+    },
+    "metrics": {
+      "total_distance": 1112.2804644198065,
+      "total_carbon": 133.47365573037675,
+      "total_cost": 580.5759702250782,
+      "total_active_time": 244.35738015174866,
+      "current_velocity": 6.686967200276581,
+      "average_velocity": 4.55185950892528,
+      "completed_journeys": 11,
+      "nodes_visited": 7,
+      "unique_edges_used": 10,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node7",
+      "mission_elapsed_time": 0.007630825042724609
+    }
+  },
+  {
+    "timestamp": 1762004998.7170746,
+    "datetime": "2025-11-01T13:49:58.717075",
+    "raw_data": {
+      "progress": 56,
+      "next_location": "Node7",
+      "previous_location": "Node3",
+      "x_coordinate": 165,
+      "y_coordinate": 322
+    },
+    "metrics": {
+      "total_distance": 1156.5523516621638,
+      "total_carbon": 138.78628219945963,
+      "total_cost": 603.013608716252,
+      "total_active_time": 247.37432885169983,
+      "current_velocity": 14.67439179296414,
+      "average_velocity": 4.675312741749826,
+      "completed_journeys": 11,
+      "nodes_visited": 7,
+      "unique_edges_used": 10,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node7",
+      "mission_elapsed_time": 3.02470326423645
+    }
+  },
+  {
+    "timestamp": 1762005001.7349443,
+    "datetime": "2025-11-01T13:50:01.734944",
+    "raw_data": {
+      "progress": 84,
+      "next_location": "Node7",
+      "previous_location": "Node3",
+      "x_coordinate": 123,
+      "y_coordinate": 308
+    },
+    "metrics": {
+      "total_distance": 1200.824238904521,
+      "total_carbon": 144.09890866854252,
+      "total_cost": 625.4513393085228,
+      "total_active_time": 250.39219856262207,
+      "current_velocity": 14.669913377018556,
+      "average_velocity": 4.7957733739224295,
+      "completed_journeys": 11,
+      "nodes_visited": 7,
+      "unique_edges_used": 10,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node7",
+      "mission_elapsed_time": 6.04263973236084
+    }
+  },
+  {
+    "timestamp": 1762005004.754995,
+    "datetime": "2025-11-01T13:50:04.754995",
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node7",
+      "previous_location": "Node3",
+      "x_coordinate": 100,
+      "y_coordinate": 300
+    },
+    "metrics": {
+      "total_distance": 1225.1758302282929,
+      "total_carbon": 147.02109962739513,
+      "total_cost": 637.9291400468171,
+      "total_active_time": 253.41224932670593,
+      "current_velocity": 8.063305297174017,
+      "average_velocity": 4.834714318204733,
+      "completed_journeys": 11,
+      "nodes_visited": 7,
+      "unique_edges_used": 10,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node7",
+      "mission_elapsed_time": 9.062688827514648
+    }
+  },
+  {
+    "timestamp": 1762005006.7430782,
+    "datetime": "2025-11-01T13:50:06.743078",
+    "raw_data": {
+      "progress": 40,
+      "next_location": "Node5",
+      "previous_location": "Node7",
+      "x_coordinate": 120,
+      "y_coordinate": 260
+    },
+    "metrics": {
+      "total_distance": 1269.8971897782887,
+      "total_carbon": 152.38766277339462,
+      "total_cost": 660.4886281342311,
+      "total_active_time": 255.4003324508667,
+      "current_velocity": 22.494713126682825,
+      "average_velocity": 4.972182994407763,
+      "completed_journeys": 12,
+      "nodes_visited": 7,
+      "unique_edges_used": 11,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node5",
+      "mission_elapsed_time": 0.002032041549682617
+    }
+  },
+  {
+    "timestamp": 1762005009.7547848,
+    "datetime": "2025-11-01T13:50:09.754785",
+    "raw_data": {
+      "progress": 80,
+      "next_location": "Node5",
+      "previous_location": "Node7",
+      "x_coordinate": 140,
+      "y_coordinate": 220
+    },
+    "metrics": {
+      "total_distance": 1314.6185493282846,
+      "total_carbon": 157.75422591939412,
+      "total_cost": 683.1504785682943,
+      "total_active_time": 258.41203904151917,
+      "current_velocity": 14.849175443849335,
+      "average_velocity": 5.0872960648596735,
+      "completed_journeys": 12,
+      "nodes_visited": 7,
+      "unique_edges_used": 11,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node5",
+      "mission_elapsed_time": 3.0140817165374756
+    }
+  },
+  {
+    "timestamp": 1762005012.7729168,
+    "datetime": "2025-11-01T13:50:12.772917",
+    "raw_data": {
+      "progress": 100,
+      "next_location": "Node5",
+      "previous_location": "Node7",
+      "x_coordinate": 150,
+      "y_coordinate": 200
+    },
+    "metrics": {
+      "total_distance": 1336.9792291032825,
+      "total_carbon": 160.43750749239388,
+      "total_cost": 694.6326316529291,
+      "total_active_time": 261.4301710128784,
+      "current_velocity": 7.408781321423626,
+      "average_velocity": 5.114096907496652,
+      "completed_journeys": 12,
+      "nodes_visited": 7,
+      "unique_edges_used": 11,
+      "utilization_rate": 100.0
+    },
+    "mission_context": {
+      "current_task_id": null,
+      "mission_destination": "Node5",
+      "mission_elapsed_time": 6.032416582107544
     }
   }
 ]

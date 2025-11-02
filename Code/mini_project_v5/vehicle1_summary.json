@@ -1,0 +1,70 @@
+{
+  "vehicle_id": 1,
+  "export_timestamp": 1762005149.405153,
+  "export_datetime": "2025-11-01T13:52:29.405157",
+  "task_metrics": {
+    "total_tasks_completed": 0,
+    "total_tasks_accepted": 7,
+    "total_tasks_rejected": 0
+  },
+  "travel_metrics": {
+    "total_distance": 933.15,
+    "total_carbon_emissions": 111.98,
+    "total_cost": 498.58,
+    "total_travel_time": 320.1,
+    "average_velocity": 2.92
+  },
+  "journey_metrics": {
+    "total_journeys": 7,
+    "average_journey_distance": 133.31,
+    "average_journey_efficiency": 99.99,
+    "nodes_visited": [
+      "Node6",
+      "Node3",
+      "Node1",
+      "Node5",
+      "Node2",
+      "Node4"
+    ],
+    "unique_nodes_count": 6,
+    "edges_used": [
+      "Node1->Node6",
+      "Node6->Node3",
+      "Node3->Node6",
+      "Node6->Node1",
+      "Node1->Node5",
+      "Node5->Node2",
+      "Node2->Node4"
+    ],
+    "unique_edges_count": 7
+  },
+  "node_statistics": {
+    "visit_counts": {
+      "Node6": 2,
+      "Node3": 1,
+      "Node1": 1,
+      "Node5": 1,
+      "Node2": 1,
+      "Node4": 1
+    },
+    "most_visited_node": "Node6",
+    "most_visited_count": 2
+  },
+  "edge_statistics": {
+    "usage_counts": {
+      "Node1->Node6": 1,
+      "Node6->Node3": 1,
+      "Node3->Node6": 1,
+      "Node6->Node1": 1,
+      "Node1->Node5": 1,
+      "Node5->Node2": 1,
+      "Node2->Node4": 1
+    },
+    "most_used_edge": "Node1->Node6",
+    "most_used_count": 1
+  },
+  "efficiency_metrics": {
+    "average_speed": 2.92,
+    "distance_per_task": 0
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "Node7": {
+    "times_requested": 2,
+    "times_completed": 2,
+    "avg_completion_time": 9.85212767124176,
+    "completion_times": [
+      9.699707746505737,
+      10.004547595977783
+    ],
+    "vehicles_used": [
+      2,
+      3
+    ]
+  },
+  "Node6": {
+    "times_requested": 4,
+    "times_completed": 4,
+    "avg_completion_time": 6.746267378330231,
+    "completion_times": [
+      12.73960280418396,
+      0.6997754573822021,
+      0.7209892272949219,
+      12.824702024459839
+    ],
+    "vehicles_used": [
+      1
+    ]
+  },
+  "Node3": {
+    "times_requested": 7,
+    "times_completed": 7,
+    "avg_completion_time": 19.499348640441895,
+    "completion_times": [
+      9.603370428085327,
+      0.8304412364959717,
+      17.596200227737427,
+      12.779011487960815,
+      52.24191474914551,
+      18.2478666305542,
+      25.196635723114014
+    ],
+    "vehicles_used": [
+      1,
+      2,
+      3
+    ]
+  },
+  "Node4": {
+    "times_requested": 2,
+    "times_completed": 2,
+    "avg_completion_time": 8.10390043258667,
+    "completion_times": [
+      6.76692533493042,
+      9.44087553024292
+    ],
+    "vehicles_used": [
+      1,
+      2
+    ]
+  },
+  "Node5": {
+    "times_requested": 8,
+    "times_completed": 8,
+    "avg_completion_time": 12.893693059682846,
+    "completion_times": [
+      14.847590446472168,
+      0.6955902576446533,
+      0.6773736476898193,
+      0.7097079753875732,
+      16.016496181488037,
+      23.976046800613403,
+      15.02460789680481,
+      31.202131271362305
+    ],
+    "vehicles_used": [
+      1,
+      2,
+      3
+    ]
+  },
+  "Node2": {
+    "times_requested": 3,
+    "times_completed": 3,
+    "avg_completion_time": 5.684508800506592,
+    "completion_times": [
+      6.7620322704315186,
+      9.568084239959717,
+      0.72340989112854
+    ],
+    "vehicles_used": [
+      1,
+      2
+    ]
+  },
+  "Node8": {
+    "times_requested": 3,
+    "times_completed": 3,
+    "avg_completion_time": 18.125044743220013,
+    "completion_times": [
+      3.815049409866333,
+      25.220356941223145,
+      25.339727878570557
+    ],
+    "vehicles_used": [
+      2,
+      3
+    ]
+  },
+  "Node9": {
+    "times_requested": 1,
+    "times_completed": 1,
+    "avg_completion_time": 17.694401264190674,
+    "completion_times": [
+      17.694401264190674
+    ],
+    "vehicles_used": [
+      2
+    ]
+  }
+}

@@ -1,0 +1,632 @@
+[
+  {
+    "task_id": "3776dda8",
+    "vehicle_id": 1,
+    "response_time": 1.0645201206207275,
+    "timestamp": 1762004717.2018328,
+    "is_busy": false
+  },
+  {
+    "task_id": "3776dda8",
+    "vehicle_id": 2,
+    "response_time": 1.1802079677581787,
+    "timestamp": 1762004717.3175206,
+    "is_busy": false
+  },
+  {
+    "task_id": "3776dda8",
+    "vehicle_id": 3,
+    "response_time": 1.4468634128570557,
+    "timestamp": 1762004717.584176,
+    "is_busy": false
+  },
+  {
+    "task_id": "bb7d19d7",
+    "vehicle_id": 1,
+    "response_time": 1.0611064434051514,
+    "timestamp": 1762004728.3033497,
+    "is_busy": false
+  },
+  {
+    "task_id": "bb7d19d7",
+    "vehicle_id": 2,
+    "response_time": 1.359562873840332,
+    "timestamp": 1762004728.6018062,
+    "is_busy": false
+  },
+  {
+    "task_id": "bb7d19d7",
+    "vehicle_id": 3,
+    "response_time": 1.6124885082244873,
+    "timestamp": 1762004728.8547318,
+    "is_busy": false
+  },
+  {
+    "task_id": "242333b7",
+    "vehicle_id": 1,
+    "response_time": 0.8401718139648438,
+    "timestamp": 1762004739.3338506,
+    "is_busy": true
+  },
+  {
+    "task_id": "242333b7",
+    "vehicle_id": 2,
+    "response_time": 1.1082875728607178,
+    "timestamp": 1762004739.6019664,
+    "is_busy": false
+  },
+  {
+    "task_id": "242333b7",
+    "vehicle_id": 3,
+    "response_time": 1.3708062171936035,
+    "timestamp": 1762004739.864485,
+    "is_busy": false
+  },
+  {
+    "task_id": "82e74ab6",
+    "vehicle_id": 1,
+    "response_time": 1.0223400592803955,
+    "timestamp": 1762004750.552407,
+    "is_busy": false
+  },
+  {
+    "task_id": "82e74ab6",
+    "vehicle_id": 2,
+    "response_time": 1.142012596130371,
+    "timestamp": 1762004750.6720796,
+    "is_busy": false
+  },
+  {
+    "task_id": "82e74ab6",
+    "vehicle_id": 3,
+    "response_time": 1.4250128269195557,
+    "timestamp": 1762004750.9550798,
+    "is_busy": false
+  },
+  {
+    "task_id": "de5a5031",
+    "vehicle_id": 1,
+    "response_time": 1.127002477645874,
+    "timestamp": 1762004761.7390902,
+    "is_busy": false
+  },
+  {
+    "task_id": "de5a5031",
+    "vehicle_id": 2,
+    "response_time": 1.423504114151001,
+    "timestamp": 1762004762.0355918,
+    "is_busy": false
+  },
+  {
+    "task_id": "de5a5031",
+    "vehicle_id": 3,
+    "response_time": 1.6582927703857422,
+    "timestamp": 1762004762.2703805,
+    "is_busy": false
+  },
+  {
+    "task_id": "9c64f6f8",
+    "vehicle_id": 1,
+    "response_time": 0.8711986541748047,
+    "timestamp": 1762004772.7177138,
+    "is_busy": false
+  },
+  {
+    "task_id": "9c64f6f8",
+    "vehicle_id": 2,
+    "response_time": 1.1378450393676758,
+    "timestamp": 1762004772.9843602,
+    "is_busy": false
+  },
+  {
+    "task_id": "9c64f6f8",
+    "vehicle_id": 3,
+    "response_time": 1.406470775604248,
+    "timestamp": 1762004773.252986,
+    "is_busy": false
+  },
+  {
+    "task_id": "3c82d989",
+    "vehicle_id": 1,
+    "response_time": 0.9553511142730713,
+    "timestamp": 1762004783.8730006,
+    "is_busy": false
+  },
+  {
+    "task_id": "3c82d989",
+    "vehicle_id": 2,
+    "response_time": 1.2852141857147217,
+    "timestamp": 1762004784.2028637,
+    "is_busy": false
+  },
+  {
+    "task_id": "3c82d989",
+    "vehicle_id": 3,
+    "response_time": 1.4178705215454102,
+    "timestamp": 1762004784.33552,
+    "is_busy": true
+  },
+  {
+    "task_id": "be1edc42",
+    "vehicle_id": 1,
+    "response_time": 0.8693711757659912,
+    "timestamp": 1762004794.8687088,
+    "is_busy": false
+  },
+  {
+    "task_id": "be1edc42",
+    "vehicle_id": 3,
+    "response_time": 1.403256893157959,
+    "timestamp": 1762004795.4025946,
+    "is_busy": false
+  },
+  {
+    "task_id": "be1edc42",
+    "vehicle_id": 2,
+    "response_time": 2.325615644454956,
+    "timestamp": 1762004796.3249533,
+    "is_busy": false
+  },
+  {
+    "task_id": "257cbaf0",
+    "vehicle_id": 1,
+    "response_time": 0.8557181358337402,
+    "timestamp": 1762004805.9095726,
+    "is_busy": false
+  },
+  {
+    "task_id": "257cbaf0",
+    "vehicle_id": 2,
+    "response_time": 1.1172411441802979,
+    "timestamp": 1762004806.1710956,
+    "is_busy": false
+  },
+  {
+    "task_id": "257cbaf0",
+    "vehicle_id": 3,
+    "response_time": 1.3831727504730225,
+    "timestamp": 1762004806.4370272,
+    "is_busy": false
+  },
+  {
+    "task_id": "96456ba9",
+    "vehicle_id": 1,
+    "response_time": 1.0779345035552979,
+    "timestamp": 1762004817.1714597,
+    "is_busy": false
+  },
+  {
+    "task_id": "96456ba9",
+    "vehicle_id": 2,
+    "response_time": 1.3063349723815918,
+    "timestamp": 1762004817.3998601,
+    "is_busy": false
+  },
+  {
+    "task_id": "96456ba9",
+    "vehicle_id": 3,
+    "response_time": 1.5749475955963135,
+    "timestamp": 1762004817.6684728,
+    "is_busy": false
+  },
+  {
+    "task_id": "e5f45b88",
+    "vehicle_id": 1,
+    "response_time": 0.9978246688842773,
+    "timestamp": 1762004828.3223057,
+    "is_busy": false
+  },
+  {
+    "task_id": "e5f45b88",
+    "vehicle_id": 2,
+    "response_time": 1.2302498817443848,
+    "timestamp": 1762004828.554731,
+    "is_busy": false
+  },
+  {
+    "task_id": "e5f45b88",
+    "vehicle_id": 3,
+    "response_time": 1.5091686248779297,
+    "timestamp": 1762004828.8336496,
+    "is_busy": false
+  },
+  {
+    "task_id": "e0f60f8c",
+    "vehicle_id": 1,
+    "response_time": 0.8929619789123535,
+    "timestamp": 1762004839.3823948,
+    "is_busy": false
+  },
+  {
+    "task_id": "e0f60f8c",
+    "vehicle_id": 2,
+    "response_time": 1.142521858215332,
+    "timestamp": 1762004839.6319547,
+    "is_busy": false
+  },
+  {
+    "task_id": "e0f60f8c",
+    "vehicle_id": 3,
+    "response_time": 1.4119338989257812,
+    "timestamp": 1762004839.9013667,
+    "is_busy": false
+  },
+  {
+    "task_id": "59920811",
+    "vehicle_id": 1,
+    "response_time": 0.9774892330169678,
+    "timestamp": 1762004850.5361402,
+    "is_busy": false
+  },
+  {
+    "task_id": "59920811",
+    "vehicle_id": 2,
+    "response_time": 1.2582495212554932,
+    "timestamp": 1762004850.8169005,
+    "is_busy": false
+  },
+  {
+    "task_id": "59920811",
+    "vehicle_id": 3,
+    "response_time": 1.5278539657592773,
+    "timestamp": 1762004851.086505,
+    "is_busy": true
+  },
+  {
+    "task_id": "5a15be17",
+    "vehicle_id": 1,
+    "response_time": 0.8858814239501953,
+    "timestamp": 1762004861.637938,
+    "is_busy": false
+  },
+  {
+    "task_id": "5a15be17",
+    "vehicle_id": 2,
+    "response_time": 1.1343252658843994,
+    "timestamp": 1762004861.8863819,
+    "is_busy": false
+  },
+  {
+    "task_id": "5a15be17",
+    "vehicle_id": 3,
+    "response_time": 1.4170022010803223,
+    "timestamp": 1762004862.1690588,
+    "is_busy": false
+  },
+  {
+    "task_id": "cbe93b24",
+    "vehicle_id": 1,
+    "response_time": 0.8745841979980469,
+    "timestamp": 1762004872.6891067,
+    "is_busy": false
+  },
+  {
+    "task_id": "cbe93b24",
+    "vehicle_id": 2,
+    "response_time": 1.154771089553833,
+    "timestamp": 1762004872.9692936,
+    "is_busy": true
+  },
+  {
+    "task_id": "cbe93b24",
+    "vehicle_id": 3,
+    "response_time": 1.5860905647277832,
+    "timestamp": 1762004873.400613,
+    "is_busy": false
+  },
+  {
+    "task_id": "85a9e745",
+    "vehicle_id": 1,
+    "response_time": 0.8916945457458496,
+    "timestamp": 1762004883.7524574,
+    "is_busy": false
+  },
+  {
+    "task_id": "85a9e745",
+    "vehicle_id": 2,
+    "response_time": 1.1589274406433105,
+    "timestamp": 1762004884.0196903,
+    "is_busy": false
+  },
+  {
+    "task_id": "85a9e745",
+    "vehicle_id": 3,
+    "response_time": 1.440077781677246,
+    "timestamp": 1762004884.3008406,
+    "is_busy": true
+  },
+  {
+    "task_id": "1d67dba5",
+    "vehicle_id": 1,
+    "response_time": 0.9090545177459717,
+    "timestamp": 1762004894.8548572,
+    "is_busy": false
+  },
+  {
+    "task_id": "1d67dba5",
+    "vehicle_id": 2,
+    "response_time": 1.124239206314087,
+    "timestamp": 1762004895.070042,
+    "is_busy": false
+  },
+  {
+    "task_id": "1d67dba5",
+    "vehicle_id": 3,
+    "response_time": 1.4052505493164062,
+    "timestamp": 1762004895.3510532,
+    "is_busy": true
+  },
+  {
+    "task_id": "1062b918",
+    "vehicle_id": 1,
+    "response_time": 0.9075179100036621,
+    "timestamp": 1762004905.9193065,
+    "is_busy": true
+  },
+  {
+    "task_id": "1062b918",
+    "vehicle_id": 2,
+    "response_time": 1.1882367134094238,
+    "timestamp": 1762004906.2000253,
+    "is_busy": false
+  },
+  {
+    "task_id": "1062b918",
+    "vehicle_id": 3,
+    "response_time": 1.4413466453552246,
+    "timestamp": 1762004906.4531353,
+    "is_busy": false
+  },
+  {
+    "task_id": "3f30f493",
+    "vehicle_id": 1,
+    "response_time": 0.857691764831543,
+    "timestamp": 1762004916.970224,
+    "is_busy": false
+  },
+  {
+    "task_id": "3f30f493",
+    "vehicle_id": 2,
+    "response_time": 1.1444549560546875,
+    "timestamp": 1762004917.256987,
+    "is_busy": false
+  },
+  {
+    "task_id": "3f30f493",
+    "vehicle_id": 3,
+    "response_time": 1.40716552734375,
+    "timestamp": 1762004917.5196977,
+    "is_busy": true
+  },
+  {
+    "task_id": "cab18a97",
+    "vehicle_id": 1,
+    "response_time": 0.9100422859191895,
+    "timestamp": 1762004928.0882986,
+    "is_busy": true
+  },
+  {
+    "task_id": "cab18a97",
+    "vehicle_id": 2,
+    "response_time": 1.2163023948669434,
+    "timestamp": 1762004928.3945587,
+    "is_busy": false
+  },
+  {
+    "task_id": "cab18a97",
+    "vehicle_id": 3,
+    "response_time": 1.4558875560760498,
+    "timestamp": 1762004928.6341438,
+    "is_busy": true
+  },
+  {
+    "task_id": "c0df2a80",
+    "vehicle_id": 1,
+    "response_time": 0.9868149757385254,
+    "timestamp": 1762004939.2853854,
+    "is_busy": false
+  },
+  {
+    "task_id": "c0df2a80",
+    "vehicle_id": 2,
+    "response_time": 1.249298334121704,
+    "timestamp": 1762004939.5478687,
+    "is_busy": true
+  },
+  {
+    "task_id": "c0df2a80",
+    "vehicle_id": 3,
+    "response_time": 1.5200283527374268,
+    "timestamp": 1762004939.8185987,
+    "is_busy": true
+  },
+  {
+    "task_id": "e3c93d6a",
+    "vehicle_id": 1,
+    "response_time": 0.8743176460266113,
+    "timestamp": 1762004950.3513656,
+    "is_busy": true
+  },
+  {
+    "task_id": "e3c93d6a",
+    "vehicle_id": 2,
+    "response_time": 1.1585924625396729,
+    "timestamp": 1762004950.6356404,
+    "is_busy": false
+  },
+  {
+    "task_id": "e3c93d6a",
+    "vehicle_id": 3,
+    "response_time": 1.4342498779296875,
+    "timestamp": 1762004950.9112978,
+    "is_busy": true
+  },
+  {
+    "task_id": "df0ba086",
+    "vehicle_id": 1,
+    "response_time": 0.9571075439453125,
+    "timestamp": 1762004961.5189378,
+    "is_busy": true
+  },
+  {
+    "task_id": "df0ba086",
+    "vehicle_id": 2,
+    "response_time": 1.292907953262329,
+    "timestamp": 1762004961.8547382,
+    "is_busy": true
+  },
+  {
+    "task_id": "df0ba086",
+    "vehicle_id": 3,
+    "response_time": 1.457695722579956,
+    "timestamp": 1762004962.019526,
+    "is_busy": false
+  },
+  {
+    "task_id": "7a2d3a80",
+    "vehicle_id": 1,
+    "response_time": 0.8663482666015625,
+    "timestamp": 1762004972.5197084,
+    "is_busy": false
+  },
+  {
+    "task_id": "7a2d3a80",
+    "vehicle_id": 2,
+    "response_time": 1.1448769569396973,
+    "timestamp": 1762004972.798237,
+    "is_busy": false
+  },
+  {
+    "task_id": "7a2d3a80",
+    "vehicle_id": 3,
+    "response_time": 1.4148008823394775,
+    "timestamp": 1762004973.068161,
+    "is_busy": true
+  },
+  {
+    "task_id": "4691c3c4",
+    "vehicle_id": 1,
+    "response_time": 0.9154746532440186,
+    "timestamp": 1762004983.6403036,
+    "is_busy": false
+  },
+  {
+    "task_id": "4691c3c4",
+    "vehicle_id": 2,
+    "response_time": 1.191471815109253,
+    "timestamp": 1762004983.9163008,
+    "is_busy": true
+  },
+  {
+    "task_id": "4691c3c4",
+    "vehicle_id": 3,
+    "response_time": 1.4448680877685547,
+    "timestamp": 1762004984.169697,
+    "is_busy": true
+  },
+  {
+    "task_id": "a1bb4d24",
+    "vehicle_id": 1,
+    "response_time": 0.8979179859161377,
+    "timestamp": 1762004994.7385004,
+    "is_busy": false
+  },
+  {
+    "task_id": "a1bb4d24",
+    "vehicle_id": 2,
+    "response_time": 1.1616535186767578,
+    "timestamp": 1762004995.002236,
+    "is_busy": false
+  },
+  {
+    "task_id": "a1bb4d24",
+    "vehicle_id": 3,
+    "response_time": 1.4736356735229492,
+    "timestamp": 1762004995.314218,
+    "is_busy": false
+  },
+  {
+    "task_id": "2e9a1af8",
+    "vehicle_id": 1,
+    "response_time": 0.905010461807251,
+    "timestamp": 1762005005.8510218,
+    "is_busy": false
+  },
+  {
+    "task_id": "2e9a1af8",
+    "vehicle_id": 2,
+    "response_time": 1.1726982593536377,
+    "timestamp": 1762005006.1187096,
+    "is_busy": false
+  },
+  {
+    "task_id": "2e9a1af8",
+    "vehicle_id": 3,
+    "response_time": 1.4182686805725098,
+    "timestamp": 1762005006.36428,
+    "is_busy": false
+  },
+  {
+    "task_id": "acff1e38",
+    "vehicle_id": 1,
+    "response_time": 0.8816714286804199,
+    "timestamp": 1762005016.903871,
+    "is_busy": false
+  },
+  {
+    "task_id": "acff1e38",
+    "vehicle_id": 2,
+    "response_time": 1.1457898616790771,
+    "timestamp": 1762005017.1679895,
+    "is_busy": true
+  },
+  {
+    "task_id": "acff1e38",
+    "vehicle_id": 3,
+    "response_time": 1.4048800468444824,
+    "timestamp": 1762005017.4270797,
+    "is_busy": false
+  },
+  {
+    "task_id": "edd7aacf",
+    "vehicle_id": 1,
+    "response_time": 1.1745545864105225,
+    "timestamp": 1762005028.2631485,
+    "is_busy": false
+  },
+  {
+    "task_id": "edd7aacf",
+    "vehicle_id": 2,
+    "response_time": 1.3778076171875,
+    "timestamp": 1762005028.4664016,
+    "is_busy": true
+  },
+  {
+    "task_id": "edd7aacf",
+    "vehicle_id": 3,
+    "response_time": 1.6709740161895752,
+    "timestamp": 1762005028.759568,
+    "is_busy": true
+  },
+  {
+    "task_id": "92610167",
+    "vehicle_id": 1,
+    "response_time": 0.9734458923339844,
+    "timestamp": 1762005039.3846931,
+    "is_busy": false
+  },
+  {
+    "task_id": "92610167",
+    "vehicle_id": 2,
+    "response_time": 1.2243897914886475,
+    "timestamp": 1762005039.635637,
+    "is_busy": false
+  },
+  {
+    "task_id": "92610167",
+    "vehicle_id": 3,
+    "response_time": 1.5140423774719238,
+    "timestamp": 1762005039.9252896,
+    "is_busy": true
+  }
+]
