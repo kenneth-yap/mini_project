@@ -68,23 +68,20 @@ const SystemDiagrams = () => {
         <rect x="50" y="220" width="180" height="100" rx="8" fill="#dcfce7" stroke="#10b981" strokeWidth="2"/>
         <text x="140" y="245" textAnchor="middle" className="font-semibold" fill="#065f46">Vehicle Agent 1</text>
         <text x="140" y="265" textAnchor="middle" className="text-xs" fill="#065f46">Port: 8001</text>
-        <text x="140" y="280" textAnchor="middle" className="text-xs" fill="#065f46">Priority: Distance</text>
-        <text x="140" y="295" textAnchor="middle" className="text-xs" fill="#065f46">Speed: 30 units/time</text>
-        <text x="140" y="310" textAnchor="middle" className="text-xs" fill="#64748b">Route Planning</text>
+        <text x="140" y="285" textAnchor="middle" className="text-xs" fill="#065f46">Priority: Distance</text>
+        <text x="140" y="305" textAnchor="middle" className="text-xs" fill="#64748b">Route Planning</text>
         
         <rect x="280" y="220" width="180" height="100" rx="8" fill="#dcfce7" stroke="#10b981" strokeWidth="2"/>
         <text x="370" y="245" textAnchor="middle" className="font-semibold" fill="#065f46">Vehicle Agent 2</text>
         <text x="370" y="265" textAnchor="middle" className="text-xs" fill="#065f46">Port: 8002</text>
-        <text x="370" y="280" textAnchor="middle" className="text-xs" fill="#065f46">Priority: Carbon</text>
-        <text x="370" y="295" textAnchor="middle" className="text-xs" fill="#065f46">Speed: 25 units/time</text>
-        <text x="370" y="310" textAnchor="middle" className="text-xs" fill="#64748b">Route Planning</text>
+        <text x="370" y="285" textAnchor="middle" className="text-xs" fill="#065f46">Priority: Carbon</text>
+        <text x="370" y="305" textAnchor="middle" className="text-xs" fill="#64748b">Route Planning</text>
         
         <rect x="510" y="220" width="180" height="100" rx="8" fill="#dcfce7" stroke="#10b981" strokeWidth="2"/>
         <text x="600" y="245" textAnchor="middle" className="font-semibold" fill="#065f46">Vehicle Agent 3</text>
         <text x="600" y="265" textAnchor="middle" className="text-xs" fill="#065f46">Port: 8003</text>
-        <text x="600" y="280" textAnchor="middle" className="text-xs" fill="#065f46">Priority: Cost</text>
-        <text x="600" y="295" textAnchor="middle" className="text-xs" fill="#065f46">Speed: 28 units/time</text>
-        <text x="600" y="310" textAnchor="middle" className="text-xs" fill="#64748b">Route Planning</text>
+        <text x="600" y="285" textAnchor="middle" className="text-xs" fill="#065f46">Priority: Cost</text>
+        <text x="600" y="305" textAnchor="middle" className="text-xs" fill="#64748b">Route Planning</text>
       </g>
       
       {/* Digital Twins */}
@@ -470,133 +467,111 @@ const SystemDiagrams = () => {
          </svg>
         );
   
-  const DataFlowDiagram = () => (
-    <svg viewBox="0 0 900 550" className="w-full h-full">
-      <defs>
-        <marker id="flow-arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
-          <polygon points="0 0, 10 5, 0 10" fill="#6366f1" />
-        </marker>
-        <marker id="flow-arrow-green" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
-          <polygon points="0 0, 10 5, 0 10" fill="#10b981" />
-        </marker>
-      </defs>
-      
-      {/* Title */}
-      <text x="450" y="30" textAnchor="middle" className="text-xl font-bold" fill="#1f2937">
-        Digital Twin Data Transformation
-      </text>
-      
-      {/* Command Flow Section */}
-      <text x="450" y="60" textAnchor="middle" className="text-sm font-semibold" fill="#1f2937">
-        Command Flow (Agent → Simulator)
-      </text>
-      
-      {/* Agent Command */}
-      <g id="agent-command">
-        <rect x="50" y="80" width="190" height="100" rx="8" fill="#dcfce7" stroke="#10b981" strokeWidth="2"/>
-        <text x="145" y="105" textAnchor="middle" className="font-semibold" fill="#065f46">Vehicle Agent</text>
-        <text x="145" y="122" textAnchor="middle" className="text-xs" fill="#64748b">(TCP)</text>
-        
-        <text x="70" y="145" className="text-xs" fill="#1e293b">• type: "assign_mission"</text>
-        <text x="70" y="162" className="text-xs" fill="#1e293b">• destination: "Node5"</text>
-      </g>
-      
-      {/* Arrow to DT */}
-      <line x1="240" y1="130" x2="320" y2="130" stroke="#10b981" strokeWidth="3" markerEnd="url(#flow-arrow-green)"/>
-      
-      {/* DT Processing */}
-      <rect x="320" y="80" width="250" height="100" rx="8" fill="#fef3c7" stroke="#eab308" strokeWidth="2"/>
-      <text x="445" y="105" textAnchor="middle" className="font-semibold" fill="#713f12">Digital Twin</text>
-      <text x="445" y="122" textAnchor="middle" className="text-xs" fill="#713f12">Protocol Bridge</text>
-      <text x="445" y="145" textAnchor="middle" className="text-xs" fill="#1e293b">TCP → MQTT</text>
-      <text x="445" y="162" textAnchor="middle" className="text-xs" fill="#64748b">(Pass-through: "Node5")</text>
-      
-      {/* Arrow to Simulator */}
-      <line x1="570" y1="130" x2="650" y2="130" stroke="#10b981" strokeWidth="3" markerEnd="url(#flow-arrow-green)"/>
-      
-      {/* Simulator Instruction */}
-      <g id="simulator-instruction">
-        <rect x="650" y="80" width="200" height="100" rx="8" fill="#e0e7ff" stroke="#6366f1" strokeWidth="2"/>
-        <text x="750" y="105" textAnchor="middle" className="font-semibold" fill="#3730a3">Simulator</text>
-        <text x="750" y="122" textAnchor="middle" className="text-xs" fill="#64748b">(MQTT)</text>
-        
-        <text x="670" y="145" className="text-xs" fill="#1e293b">Topic: vehicle1_next_dest</text>
-        <text x="670" y="162" className="text-xs" fill="#1e293b">Payload: "Node5"</text>
-      </g>
-      
-      {/* Telemetry Flow Section */}
-      <text x="450" y="230" textAnchor="middle" className="text-sm font-semibold" fill="#1f2937">
-        Telemetry Flow (Simulator → Agent)
-      </text>
-      
-      {/* Simulator Data */}
-      <g id="simulator-data">
-        <rect x="650" y="240" width="200" height="170" rx="8" fill="#e0e7ff" stroke="#6366f1" strokeWidth="2"/>
-        <text x="750" y="265" textAnchor="middle" className="font-semibold" fill="#3730a3">Simulator</text>
-        <text x="750" y="282" textAnchor="middle" className="text-xs" fill="#64748b">(MQTT)</text>
-        
-        <text x="670" y="300" className="text-xs" fill="#1e293b">• progress: 75</text>
-        <text x="670" y="317" className="text-xs" fill="#1e293b">• next_location:</text>
-        <text x="680" y="334" className="text-xs" fill="#1e293b"> "Node5"</text>
-        <text x="670" y="351" className="text-xs" fill="#1e293b">• previous_location:</text>
-        <text x="680" y="368" className="text-xs" fill="#1e293b">"Node3"</text>
-      </g>
-      
-      {/* Arrow Simulator to DT */}
-      <line x1="650" y1="320" x2="570" y2="320" stroke="#6366f1" strokeWidth="3" markerEnd="url(#flow-arrow)"/>
-      
-      {/* Digital Twin */}
-      <g id="transformation">
-        <rect x="320" y="250" width="250" height="140" rx="8" fill="#fef3c7" stroke="#eab308" strokeWidth="2"/>
-        <text x="445" y="275" textAnchor="middle" className="font-semibold" fill="#713f12">Digital Twin</text>
-        <text x="445" y="292" textAnchor="middle" className="text-xs" fill="#713f12">Protocol + Semantic Bridge</text>
-        
-        <text x="340" y="315" className="text-xs font-semibold" fill="#713f12">Transforms:</text>
-        <text x="340" y="332" className="text-xs" fill="#1e293b">• MQTT → TCP</text>
-        <text x="340" y="349" className="text-xs" fill="#1e293b">• Derives current_location</text>
-        <text x="340" y="366" className="text-xs" fill="#1e293b">• Renames fields</text>
-        <text x="340" y="383" className="text-xs" fill="#64748b">  (progress → mission_progress)</text>
-      </g>
-      
-      {/* Arrow DT to Agent */}
-      <line x1="320" y1="320" x2="240" y2="320" stroke="#6366f1" strokeWidth="3" markerEnd="url(#flow-arrow)"/>
-      
-      {/* Agent Data */}
-      <g id="agent-data">
-        <rect x="50" y="240" width="190" height="170" rx="8" fill="#dcfce7" stroke="#10b981" strokeWidth="2"/>
-        <text x="145" y="265" textAnchor="middle" className="font-semibold" fill="#065f46">Vehicle Agent</text>
-        <text x="145" y="282" textAnchor="middle" className="text-xs" fill="#64748b">(TCP)</text>
-        
-        <text x="65" y="300" className="text-xs" fill="#1e293b">• mission_progress: 75%</text>
-        <text x="65" y="317" className="text-xs" fill="#1e293b">• target_location:</text>
-        <text x="75" y="334" className="text-xs" fill="#1e293b">  "Node5"</text>
-        <text x="65" y="351" className="text-xs" fill="#1e293b">• current_location:</text>
-        <text x="75" y="368" className="text-xs" fill="#1e293b">  "Node3"</text>
-
-      </g>
-      
-      {/* Key Benefits */}
-      <g id="benefits">
-        <rect x="50" y="430" width="800" height="115" rx="8" fill="#f1f5f9" stroke="#64748b" strokeWidth="2"/>
-        <text x="450" y="455" textAnchor="middle" className="font-semibold" fill="#1e293b">
-          Digital Twin Value
-        </text>
-        <text x="70" y="480" className="text-xs" fill="#1e293b">
-          • Protocol Translation: MQTT ↔ TCP bridging between simulator and agent
-        </text>
-        <text x="70" y="498" className="text-xs" fill="#1e293b">
-          • Semantic Mapping: Low-level telemetry → High-level task representation
-        </text>
-        <text x="80" y="516" className="text-xs" fill="#1e293b">
-          (e.g., derives "current_location" from multiple fields)
-        </text>
-        <text x="70" y="534" className="text-xs" fill="#1e293b">
-          • State History: Maintains telemetry log for analysis and debugging (.json)
-        </text>
-      </g>
-    </svg>
-  );
-
+      const DataFlowDiagram = () => (
+        <svg viewBox="0 0 550 580" className="w-full h-full">
+          <defs>
+            <marker id="arrow-right" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+              <polygon points="0 0, 8 4, 0 8" fill="#ca8a04" />
+            </marker>
+            <marker id="arrow-left" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+              <polygon points="0 0, 8 4, 0 8" fill="#ca8a04" />
+            </marker>
+          </defs>
+          
+          {/* Main Container */}
+          <rect x="10" y="10" width="530" height="560" rx="12" fill="#fffbeb" stroke="#eab308" strokeWidth="4"/>
+          
+          {/* Header */}
+          <text x="275" y="40" textAnchor="middle" className="text-lg font-bold" fill="#713f12">
+            Digital Twin
+          </text>
+          <text x="275" y="60" textAnchor="middle" className="text-sm italic" fill="#92400e">
+            Agent - Simulator Interface
+          </text>
+          <line x1="30" y1="70" x2="520" y2="70" stroke="#eab308" strokeWidth="2"/>
+          
+          {/* ===== COMMAND PROCESSING ===== */}
+          <g id="command-section">
+            <rect x="30" y="85" width="490" height="165" rx="8" fill="#fef3c7" stroke="#ca8a04" strokeWidth="2"/>
+            <text x="275" y="108" textAnchor="middle" className="text-sm font-bold" fill="#713f12">
+                Command Processing (Agent → Simulator)
+            </text>
+            
+            {/* Receives Box */}
+            <rect x="45" y="120" width="200" height="120" rx="6" fill="#ffffff" stroke="#ca8a04" strokeWidth="1.5"/>
+            <text x="145" y="138" textAnchor="middle" className="text-xs font-bold" fill="#713f12">
+              Receives (TCP):
+            </text>
+            <text x="55" y="160" className="text-xs" fill="#1e293b">type: "assign_mission"</text>
+            <text x="55" y="180" className="text-xs" fill="#1e293b">destination: "Node5"</text>
+            <line x1="55" y1="205" x2="235" y2="205" stroke="#d97706" strokeWidth="1" strokeDasharray="3,2"/>
+            <text x="55" y="227" className="text-xs font-mono" fill="#64748b">High-level Instructions</text>
+            
+            {/* Arrow */}
+            <line x1="245" y1="180" x2="300" y2="180" stroke="#ca8a04" strokeWidth="2" markerEnd="url(#arrow-right)"/>
+            
+            {/* Publishes Box */}
+            <rect x="305" y="120" width="200" height="120" rx="6" fill="#ffffff" stroke="#ca8a04" strokeWidth="1.5"/>
+            <text x="405" y="138" textAnchor="middle" className="text-xs font-bold" fill="#713f12">
+              Publishes (MQTT):
+            </text>
+            <text x="315" y="160" className="text-xs" fill="#1e293b">topic: vehicle1_next_dest</text>
+            <text x="315" y="180" className="text-xs" fill="#1e293b">payload: "Node5"</text>
+            <line x1="315" y1="205" x2="495" y2="205" stroke="#d97706" strokeWidth="1" strokeDasharray="3,2"/>
+            <text x="315" y="225" className="text-xs italic" fill="#16a34a">✓ Logs command</text>
+          </g>
+          
+          {/* ===== STATE HISTORY ===== */}
+          <g id="state-section">
+            <rect x="30" y="270" width="490" height="70" rx="8" fill="#fde68a" stroke="#d97706" strokeWidth="2"/>
+            <text x="275" y="295" textAnchor="middle" className="text-sm font-bold" fill="#713f12">
+              📊 State History & Data Model
+            </text>
+            <text x="45" y="315" className="text-xs" fill="#1e293b">
+              • Logs all messages with timestamps
+            </text>
+            <text x="45" y="332" className="text-xs" fill="#1e293b">
+              • Stores both command and telemetry metadata for verification
+            </text>
+          </g>
+          
+          {/* ===== TELEMETRY PROCESSING ===== */}
+          <g id="telemetry-section">
+            <rect x="30" y="360" width="490" height="165" rx="8" fill="#fef3c7" stroke="#ca8a04" strokeWidth="2"/>
+            <text x="275" y="383" textAnchor="middle" className="text-sm font-bold" fill="#713f12">
+                Telemetry Processing (Simulator → Agent)
+            </text>
+            
+            {/* Receives Box */}
+            <rect x="305" y="395" width="200" height="120" rx="6" fill="#ffffff" stroke="#ca8a04" strokeWidth="1.5"/>
+            <text x="405" y="413" textAnchor="middle" className="text-xs font-bold" fill="#713f12">
+              Receives (MQTT):
+            </text>
+            <text x="312" y="435" className="text-xs" fill="#1e293b">progress: 75</text>
+            <text x="312" y="455" className="text-xs" fill="#1e293b">next_location: "Node5"</text>
+            <text x="312" y="475" className="text-xs" fill="#1e293b">previous_location: "Node3"</text>
+            <line x1="312" y1="490" x2="495" y2="490" stroke="#d97706" strokeWidth="1" strokeDasharray="3,2"/>
+            <text x="385" y="507" textAnchor="middle" className="text-xs italic" fill="#64748b">
+              Low-level telemetry
+            </text>
+            
+            {/* Arrow */}
+            <line x1="305" y1="455" x2="250" y2="455" stroke="#ca8a04" strokeWidth="2" markerEnd="url(#arrow-left)"/>
+            
+            {/* Forwards Box */}
+            <rect x="45" y="395" width="200" height="120" rx="6" fill="#ffffff" stroke="#ca8a04" strokeWidth="1.5"/>
+            <text x="145" y="413" textAnchor="middle" className="text-xs font-bold" fill="#713f12">
+              Forwards (TCP):
+            </text>
+            <text x="55" y="435" className="text-xs" fill="#1e293b">mission_progress: 75%</text>
+            <text x="55" y="455" className="text-xs" fill="#1e293b">target_location: "Node5"</text>
+            <text x="55" y="475" className="text-xs" fill="#1e293b">current_location: "Node3"</text>
+            <line x1="55" y1="490" x2="235" y2="490" stroke="#d97706" strokeWidth="1" strokeDasharray="3,2"/>
+            <text x="55" y="507" className="text-xs italic" fill="#16a34a">✓ Logs messages</text>
+          </g>
+          
+        </svg>
+      );      
 
   const RoutingDiagram = () => (
     <svg viewBox="0 0 1000 750" className="w-full h-full">
